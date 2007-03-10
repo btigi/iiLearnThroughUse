@@ -1,0 +1,200 @@
+@10 = ~Nauka przez praktyke~
+
+@100 = ~Przeczytaj Readme~
+@101 = ~Pokaz Readme po instalacji~
+@102 = ~Nie pokazuj Readme~
+
+@150 = ~Wpisz liczbê udanych trafien dla bieglosci (1 punkt)~
+@151 = ~Wpisz liczbê udanych trafien dla specjalizacji (2 punkty)~
+@152 = ~Wpisz liczbê udanych trafien dla mistrzostwa (3 punkty)~
+@153 = ~Wpisz liczbê udanych trafien dla znacznego mistrzostwa (4 punkty)~
+@154 = ~Wpisz liczbê udanych trafien dla wielkiego mistrzostwa (5 punktów)~
+
+// 89
+@700 = ~Zyskano bieg³oœæ: Miecz pó³torarêczny~
+@701 = ~Zyskano bieg³oœæ: Miecz pó³torarêczny~
+@702 = ~Zyskano bieg³oœæ: Miecz pó³torarêczny~
+@703 = ~Zyskano bieg³oœæ: Miecz pó³torarêczny~
+@704 = ~Zyskano bieg³oœæ: Miecz pó³torarêczny~
+
+// 90
+@705 = ~Zyskano bieg³oœæ: D³ugi miecz~
+@706 = ~Zyskano bieg³oœæ: D³ugi miecz~
+@707 = ~Zyskano bieg³oœæ: D³ugi miecz~
+@708 = ~Zyskano bieg³oœæ: D³ugi miecz~
+@709 = ~Zyskano bieg³oœæ: D³ugi miecz~
+
+// 91
+@710 = ~Zyskano bieg³oœæ: Krótki miecz~
+@711 = ~Zyskano bieg³oœæ: Krótki miecz~
+@712 = ~Zyskano bieg³oœæ: Krótki miecz~
+@713 = ~Zyskano bieg³oœæ: Krótki miecz~
+@714 = ~Zyskano bieg³oœæ: Krótki miecz~
+
+// 92
+@715 = ~Zyskano bieg³oœæ: Topór~
+@716 = ~Zyskano bieg³oœæ: Topór~
+@717 = ~Zyskano bieg³oœæ: Topór~
+@718 = ~Zyskano bieg³oœæ: Topór~
+@719 = ~Zyskano bieg³oœæ: Topór~
+
+// 93
+@720 = ~Zyskano bieg³oœæ: Miecz dwurêczny~
+@721 = ~Zyskano bieg³oœæ: Miecz dwurêczny~
+@722 = ~Zyskano bieg³oœæ: Miecz dwurêczny~
+@723 = ~Zyskano bieg³oœæ: Miecz dwurêczny~
+@724 = ~Zyskano bieg³oœæ: Miecz dwurêczny~
+
+// 94
+@725 = ~Zyskano bieg³oœæ: Katana~
+@726 = ~Zyskano bieg³oœæ: Katana~
+@727 = ~Zyskano bieg³oœæ: Katana~
+@728 = ~Zyskano bieg³oœæ: Katana~
+@729 = ~Zyskano bieg³oœæ: Katana~
+
+// 95
+@730 = ~Zyskano bieg³oœæ: Sejmitar/Wakizashi/Ninja-to~
+@731 = ~Zyskano bieg³oœæ: Sejmitar/Wakizashi/Ninja-to~
+@732 = ~Zyskano bieg³oœæ: Sejmitar/Wakizashi/Ninja-to~
+@733 = ~Zyskano bieg³oœæ: Sejmitar/Wakizashi/Ninja-to~
+@734 = ~Zyskano bieg³oœæ: Sejmitar/Wakizashi/Ninja-to~
+
+// 96
+@735 = ~Zyskano bieg³oœæ: Sztylet~
+@736 = ~Zyskano bieg³oœæ: Sztylet~
+@737 = ~Zyskano bieg³oœæ: Sztylet~
+@738 = ~Zyskano bieg³oœæ: Sztylet~
+@739 = ~Zyskano bieg³oœæ: Sztylet~
+
+// 97
+@740 = ~Zyskano bieg³oœæ: M³ot~
+@741 = ~Zyskano bieg³oœæ: M³ot~
+@742 = ~Zyskano bieg³oœæ: M³ot~
+@743 = ~Zyskano bieg³oœæ: M³ot~
+@744 = ~Zyskano bieg³oœæ: M³ot~
+
+// 98
+@745 = ~Zyskano bieg³oœæ: W³ócznia~
+@746 = ~Zyskano bieg³oœæ: W³ócznia~
+@747 = ~Zyskano bieg³oœæ: W³ócznia~
+@748 = ~Zyskano bieg³oœæ: W³ócznia~
+@749 = ~Zyskano bieg³oœæ: W³ócznia~
+
+// 99
+@750 = ~Zyskano bieg³oœæ: Halabarda~
+@751 = ~Zyskano bieg³oœæ: Halabarda~
+@752 = ~Zyskano bieg³oœæ: Halabarda~
+@753 = ~Zyskano bieg³oœæ: Halabarda~
+@754 = ~Zyskano bieg³oœæ: Halabarda~
+
+// 100
+@755 = ~Zyskano bieg³oœæ: Korbacz/Morgensztern~
+@756 = ~Zyskano bieg³oœæ: Korbacz/Morgensztern~
+@757 = ~Zyskano bieg³oœæ: Korbacz/Morgensztern~
+@758 = ~Zyskano bieg³oœæ: Korbacz/Morgensztern~
+@759 = ~Zyskano bieg³oœæ: Korbacz/Morgensztern~
+
+// 101
+@760 = ~Zyskano bieg³oœæ: Wiekiera~
+@761 = ~Zyskano bieg³oœæ: Wiekiera~
+@762 = ~Zyskano bieg³oœæ: Wiekiera~
+@763 = ~Zyskano bieg³oœæ: Wiekiera~
+@764 = ~Zyskano bieg³oœæ: Wiekiera~
+
+// 102
+@765 = ~Zyskano bieg³oœæ: Kij~
+@766 = ~Zyskano bieg³oœæ: Kij~
+@767 = ~Zyskano bieg³oœæ: Kij~
+@768 = ~Zyskano bieg³oœæ: Kij~
+@769 = ~Zyskano bieg³oœæ: Kij~
+
+// 103
+@770 = ~Zyskano bieg³oœæ: Kusza~
+@771 = ~Zyskano bieg³oœæ: Kusza~
+@772 = ~Zyskano bieg³oœæ: Kusza~
+@773 = ~Zyskano bieg³oœæ: Kusza~
+@774 = ~Zyskano bieg³oœæ: Kusza~
+
+// 104
+@775 = ~Zyskano bieg³oœæ: D³ugi ³uk~
+@776 = ~Zyskano bieg³oœæ: D³ugi ³uk~
+@777 = ~Zyskano bieg³oœæ: D³ugi ³uk~
+@778 = ~Zyskano bieg³oœæ: D³ugi ³uk~
+@779 = ~Zyskano bieg³oœæ: D³ugi ³uk~
+
+// 105
+@780 = ~Zyskano bieg³oœæ: Krótki ³uk~
+@781 = ~Zyskano bieg³oœæ: Krótki ³uk~
+@782 = ~Zyskano bieg³oœæ: Krótki ³uk~
+@783 = ~Zyskano bieg³oœæ: Krótki ³uk~
+@784 = ~Zyskano bieg³oœæ: Krótki ³uk~
+
+// 106
+@785 = ~Zyskano bieg³oœæ: Strza³ki~
+@786 = ~Zyskano bieg³oœæ: Strza³ki~
+@787 = ~Zyskano bieg³oœæ: Strza³ki~
+@788 = ~Zyskano bieg³oœæ: Strza³ki~
+@789 = ~Zyskano bieg³oœæ: Strza³ki~
+
+// 107
+@790 = ~Zyskano bieg³oœæ: Proca~
+@791 = ~Zyskano bieg³oœæ: Proca~
+@792 = ~Zyskano bieg³oœæ: Proca~
+@793 = ~Zyskano bieg³oœæ: Proca~
+@794 = ~Zyskano bieg³oœæ: Proca~
+
+// 108
+@795 = ~Zyskano bieg³oœæ: Pa³ka~
+@796 = ~Zyskano bieg³oœæ: Pa³ka~
+@797 = ~Zyskano bieg³oœæ: Pa³ka~
+@798 = ~Zyskano bieg³oœæ: Pa³ka~
+@799 = ~Zyskano bieg³oœæ: Pa³ka~
+
+// 109
+@800 = ~Zyskano bieg³oœæ: Broñ~
+@801 = ~Zyskano bieg³oœæ: Broñ~
+@802 = ~Zyskano bieg³oœæ: Broñ~
+@803 = ~Zyskano bieg³oœæ: Broñ~
+@804 = ~Zyskano bieg³oœæ: Broñ~
+
+// 110
+@805 = ~Zyskano bieg³oœæ: Walka wrêcz~
+@806 = ~Zyskano bieg³oœæ: Walka wrêcz~
+@807 = ~Zyskano bieg³oœæ: Walka wrêcz~
+@808 = ~Zyskano bieg³oœæ: Walka wrêcz~
+@809 = ~Zyskano bieg³oœæ: Walka wrêcz~
+
+// 111
+@810 = ~Zyskano bieg³oœæ: Styl walki broni¹ dwurêczn¹~
+@811 = ~Zyskano bieg³oœæ: Styl walki broni¹ dwurêczn¹~
+@812 = ~Zyskano bieg³oœæ: Styl walki broni¹ dwurêczn¹~
+@813 = ~Zyskano bieg³oœæ: Styl walki broni¹ dwurêczn¹~
+@814 = ~Zyskano bieg³oœæ: Styl walki broni¹ dwurêczn¹~
+
+// 112
+@815 = ~Zyskano bieg³oœæ: Styl walki mieczem i tarcz¹~
+@816 = ~Zyskano bieg³oœæ: Styl walki mieczem i tarcz¹~
+@817 = ~Zyskano bieg³oœæ: Styl walki mieczem i tarcz¹~
+@818 = ~Zyskano bieg³oœæ: Styl walki mieczem i tarcz¹~
+@819 = ~Zyskano bieg³oœæ: Styl walki mieczem i tarcz¹l~
+
+// 113
+@820 = ~Zyskano bieg³oœæ: Styl walki jedn¹ broni¹~
+@821 = ~Zyskano bieg³oœæ: Styl walki jedn¹ broni¹~
+@822 = ~Zyskano bieg³oœæ: Styl walki jedn¹ broni¹~
+@823 = ~Zyskano bieg³oœæ: Styl walki jedn¹ broni¹~
+@824 = ~Zyskano bieg³oœæ: Styl walki jedn¹ broni¹~
+
+// 114
+@825 = ~Zyskano bieg³oœæ: Styl walki dwoma broñmi~
+@826 = ~Zyskano bieg³oœæ: Styl walki dwoma broñmi~
+@827 = ~Zyskano bieg³oœæ: Styl walki dwoma broñmi~
+@828 = ~Zyskano bieg³oœæ: Styl walki dwoma broñmi~
+@829 = ~Zyskano bieg³oœæ: Styl walki dwoma broñmi~
+
+// 115
+@830 = ~Zyskano bieg³oœæ: Maczuga~
+@831 = ~Zyskano bieg³oœæ: Maczuga~
+@832 = ~Zyskano bieg³oœæ: Maczuga~
+@833 = ~Zyskano bieg³oœæ: Maczuga~
+@834 = ~Zyskano bieg³oœæ: Maczuga~

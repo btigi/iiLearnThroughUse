@@ -1,0 +1,1448 @@
+IF
+  CheckStat(Myself, %_STRIKES_FOR_ONE_%, PROFICIENCYBASTARDSWORD)
+THEN
+  RESPONSE #100
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_ONE_%)
+    SetGlobal("ii89_1", "LOCALS", 1)
+    SetGlobal("ii89_ok1", "LOCALS", 2)
+END
+
+IF
+  CheckStat(Myself, %_STRIKES_FOR_TWO_%, PROFICIENCYBASTARDSWORD)
+THEN
+  RESPONSE #100
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_TWO_%)
+    SetGlobal("ii89_2", "LOCALS", 1)
+    SetGlobal("ii89_ok2", "LOCALS", 2)
+END
+
+IF
+  CheckStat(Myself, %_STRIKES_FOR_THREE_%, PROFICIENCYBASTARDSWORD)
+THEN
+  RESPONSE #100
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_THREE_%)
+    SetGlobal("ii89_3", "LOCALS", 1)
+    SetGlobal("ii89_ok3", "LOCALS", 2)
+END
+
+IF
+  CheckStat(Myself, %_STRIKES_FOR_FOUR_%, PROFICIENCYBASTARDSWORD)
+THEN
+  RESPONSE #100
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_FOUR_%)
+    SetGlobal("ii89_4", "LOCALS", 1)
+    SetGlobal("ii89_ok4", "LOCALS", 2)
+END
+
+IF
+  CheckStat(Myself, %_STRIKES_FOR_FIVE_%, PROFICIENCYBASTARDSWORD)
+THEN
+  RESPONSE #100
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_FIVE_%)
+    SetGlobal("ii89_5", "LOCALS", 1)
+    SetGlobal("ii89_ok5", "LOCALS", 2)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii90", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii90_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii90_1", Myself)
+    DisplayStringHead(Myself, @705)
+END
+
+IF
+  GlobalGT("ii90", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii90_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii90_2", Myself)
+    DisplayStringHead(Myself, @706)
+END
+
+IF
+  GlobalGT("ii90", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii90_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii90_3", Myself)
+    DisplayStringHead(Myself, @707)
+END
+
+IF
+  GlobalGT("ii90", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii90_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii90_4", Myself)
+    DisplayStringHead(Myself, @708)
+END
+
+IF
+  GlobalGT("ii90", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii90_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii90_5", Myself)
+    DisplayStringHead(Myself, @709)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii91", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii91_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii91_1", Myself)
+    DisplayStringHead(Myself, @710)
+END
+
+IF
+  GlobalGT("ii91", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii91_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii91_2", Myself)
+    DisplayStringHead(Myself, @711)
+END
+
+IF
+  GlobalGT("ii91", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii91_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii91_3", Myself)
+    DisplayStringHead(Myself, @712)
+END
+
+IF
+  GlobalGT("ii91", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii91_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii91_4", Myself)
+    DisplayStringHead(Myself, @713)
+END
+
+IF
+  GlobalGT("ii91", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii91_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii91_5", Myself)
+    DisplayStringHead(Myself, @714)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii92", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii92_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii92_1", Myself)
+    DisplayStringHead(Myself, @715)
+END
+
+IF
+  GlobalGT("ii92", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii92_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii92_2", Myself)
+    DisplayStringHead(Myself, @716)
+END
+
+IF
+  GlobalGT("ii92", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii92_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii92_3", Myself)
+    DisplayStringHead(Myself, @717)
+END
+
+IF
+  GlobalGT("ii92", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii92_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii92_4", Myself)
+    DisplayStringHead(Myself, @718)
+END
+
+IF
+  GlobalGT("ii92", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii92_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii92_5", Myself)
+    DisplayStringHead(Myself, @719)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii93", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii93_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii93_1", Myself)
+    DisplayStringHead(Myself, @720)
+END
+
+IF
+  GlobalGT("ii93", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii93_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii93_2", Myself)
+    DisplayStringHead(Myself, @721)
+END
+
+IF
+  GlobalGT("ii93", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii93_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii93_3", Myself)
+    DisplayStringHead(Myself, @722)
+END
+
+IF
+  GlobalGT("ii93", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii93_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii93_4", Myself)
+    DisplayStringHead(Myself, @723)
+END
+
+IF
+  GlobalGT("ii93", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii93_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii93_5", Myself)
+    DisplayStringHead(Myself, @724)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii94", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii94_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii94_1", Myself)
+    DisplayStringHead(Myself, @725)
+END
+
+IF
+  GlobalGT("ii94", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii94_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii94_2", Myself)
+    DisplayStringHead(Myself, @726)
+END
+
+IF
+  GlobalGT("ii94", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii94_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii94_3", Myself)
+    DisplayStringHead(Myself, @727)
+END
+
+IF
+  GlobalGT("ii94", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii94_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii94_4", Myself)
+    DisplayStringHead(Myself, @728)
+END
+
+IF
+  GlobalGT("ii94", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii94_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii94_5", Myself)
+    DisplayStringHead(Myself, @729)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii95", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii95_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii95_1", Myself)
+    DisplayStringHead(Myself, @730)
+END
+
+IF
+  GlobalGT("ii95", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii95_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii95_2", Myself)
+    DisplayStringHead(Myself, @731)
+END
+
+IF
+  GlobalGT("ii95", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii95_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii95_3", Myself)
+    DisplayStringHead(Myself, @732)
+END
+
+IF
+  GlobalGT("ii95", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii95_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii95_4", Myself)
+    DisplayStringHead(Myself, @733)
+END
+
+IF
+  GlobalGT("ii95", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii95_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii95_5", Myself)
+    DisplayStringHead(Myself, @734)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii96", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii96_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii96_1", Myself)
+    DisplayStringHead(Myself, @735)
+END
+
+IF
+  GlobalGT("ii96", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii96_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii96_2", Myself)
+    DisplayStringHead(Myself, @736)
+END
+
+IF
+  GlobalGT("ii96", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii96_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii96_3", Myself)
+    DisplayStringHead(Myself, @737)
+END
+
+IF
+  GlobalGT("ii96", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii96_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii96_4", Myself)
+    DisplayStringHead(Myself, @738)
+END
+
+IF
+  GlobalGT("ii96", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii96_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii96_5", Myself)
+    DisplayStringHead(Myself, @739)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii97", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii97_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii97_1", Myself)
+    DisplayStringHead(Myself, @740)
+END
+
+IF
+  GlobalGT("ii97", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii97_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii97_2", Myself)
+    DisplayStringHead(Myself, @741)
+END
+
+IF
+  GlobalGT("ii97", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii97_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii97_3", Myself)
+    DisplayStringHead(Myself, @742)
+END
+
+IF
+  GlobalGT("ii97", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii97_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii97_4", Myself)
+    DisplayStringHead(Myself, @743)
+END
+
+IF
+  GlobalGT("ii97", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii97_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii97_5", Myself)
+    DisplayStringHead(Myself, @744)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii98", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii98_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii98_1", Myself)
+    DisplayStringHead(Myself, @745)
+END
+
+IF
+  GlobalGT("ii98", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii98_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii98_2", Myself)
+    DisplayStringHead(Myself, @746)
+END
+
+IF
+  GlobalGT("ii98", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii98_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii98_3", Myself)
+    DisplayStringHead(Myself, @747)
+END
+
+IF
+  GlobalGT("ii98", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii98_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii98_4", Myself)
+    DisplayStringHead(Myself, @748)
+END
+
+IF
+  GlobalGT("ii98", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii98_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii98_5", Myself)
+    DisplayStringHead(Myself, @749)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii99", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii99_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii99_1", Myself)
+    DisplayStringHead(Myself, @750)
+END
+
+IF
+  GlobalGT("ii99", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii99_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii99_2", Myself)
+    DisplayStringHead(Myself, @751)
+END
+
+IF
+  GlobalGT("ii99", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii99_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii99_3", Myself)
+    DisplayStringHead(Myself, @752)
+END
+
+IF
+  GlobalGT("ii99", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii99_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii99_4", Myself)
+    DisplayStringHead(Myself, @753)
+END
+
+IF
+  GlobalGT("ii99", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii99_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii99_5", Myself)
+    DisplayStringHead(Myself, @754)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii100", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii100_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii100_1", Myself)
+    DisplayStringHead(Myself, @755)
+END
+
+IF
+  GlobalGT("ii100", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii100_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii100_2", Myself)
+    DisplayStringHead(Myself, @756)
+END
+
+IF
+  GlobalGT("ii100", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii100_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii100_3", Myself)
+    DisplayStringHead(Myself, @757)
+END
+
+IF
+  GlobalGT("ii100", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii100_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii100_4", Myself)
+    DisplayStringHead(Myself, @758)
+END
+
+IF
+  GlobalGT("ii100", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii100_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii100_5", Myself)
+    DisplayStringHead(Myself, @759)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii101", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii101_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii101_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii101_1", Myself)
+    DisplayStringHead(Myself, @760)
+END
+
+IF
+  GlobalGT("ii101", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii101_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii101_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii101_2", Myself)
+    DisplayStringHead(Myself, @761)
+END
+
+IF
+  GlobalGT("ii101", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii101_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii101_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii101_3", Myself)
+    DisplayStringHead(Myself, @762)
+END
+
+IF
+  GlobalGT("ii101", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii101_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii101_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii101_4", Myself)
+    DisplayStringHead(Myself, @763)
+END
+
+IF
+  GlobalGT("ii101", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii101_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii101_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii101_5", Myself)
+    DisplayStringHead(Myself, @764)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii102", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii102_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii102_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii102_1", Myself)
+    DisplayStringHead(Myself, @765)
+END
+
+IF
+  GlobalGT("ii102", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii102_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii102_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii102_2", Myself)
+    DisplayStringHead(Myself, @766)
+END
+
+IF
+  GlobalGT("ii102", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii102_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii102_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii102_3", Myself)
+    DisplayStringHead(Myself, @767)
+END
+
+IF
+  GlobalGT("ii102", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii102_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii102_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii102_4", Myself)
+    DisplayStringHead(Myself, @768)
+END
+
+IF
+  GlobalGT("ii102", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii102_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii102_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii102_5", Myself)
+    DisplayStringHead(Myself, @769)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii103", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii103_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii103_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii103_1", Myself)
+    DisplayStringHead(Myself, @770)
+END
+
+IF
+  GlobalGT("ii103", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii103_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii103_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii103_2", Myself)
+    DisplayStringHead(Myself, @771)
+END
+
+IF
+  GlobalGT("ii103", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii103_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii103_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii103_3", Myself)
+    DisplayStringHead(Myself, @772)
+END
+
+IF
+  GlobalGT("ii103", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii103_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii103_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii103_4", Myself)
+    DisplayStringHead(Myself, @773)
+END
+
+IF
+  GlobalGT("ii103", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii103_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii103_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii103_5", Myself)
+    DisplayStringHead(Myself, @774)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii104", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii104_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii104_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii104_1", Myself)
+    DisplayStringHead(Myself, @775)
+END
+
+IF
+  GlobalGT("ii104", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii104_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii104_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii104_2", Myself)
+    DisplayStringHead(Myself, @776)
+END
+
+IF
+  GlobalGT("ii104", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii104_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii104_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii104_3", Myself)
+    DisplayStringHead(Myself, @777)
+END
+
+IF
+  GlobalGT("ii104", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii104_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii104_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii104_4", Myself)
+    DisplayStringHead(Myself, @778)
+END
+
+IF
+  GlobalGT("ii104", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii104_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii104_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii104_5", Myself)
+    DisplayStringHead(Myself, @779)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii105", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii105_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii105_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii105_1", Myself)
+    DisplayStringHead(Myself, @780)
+END
+
+IF
+  GlobalGT("ii105", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii105_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii105_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii105_2", Myself)
+    DisplayStringHead(Myself, @781)
+END
+
+IF
+  GlobalGT("ii105", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii105_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii105_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii105_3", Myself)
+    DisplayStringHead(Myself, @782)
+END
+
+IF
+  GlobalGT("ii105", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii105_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii105_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii105_4", Myself)
+    DisplayStringHead(Myself, @783)
+END
+
+IF
+  GlobalGT("ii105", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii105_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii105_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii105_5", Myself)
+    DisplayStringHead(Myself, @784)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii106", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii106_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii106_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii106_1", Myself)
+    DisplayStringHead(Myself, @785)
+END
+
+IF
+  GlobalGT("ii106", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii106_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii106_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii106_2", Myself)
+    DisplayStringHead(Myself, @786)
+END
+
+IF
+  GlobalGT("ii106", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii106_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii106_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii106_3", Myself)
+    DisplayStringHead(Myself, @787)
+END
+
+IF
+  GlobalGT("ii106", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii106_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii106_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii106_4", Myself)
+    DisplayStringHead(Myself, @788)
+END
+
+IF
+  GlobalGT("ii106", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii106_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii106_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii106_5", Myself)
+    DisplayStringHead(Myself, @789)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii107", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii107_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii107_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii107_1", Myself)
+    DisplayStringHead(Myself, @790)
+END
+
+IF
+  GlobalGT("ii107", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii107_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii107_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii107_2", Myself)
+    DisplayStringHead(Myself, @791)
+END
+
+IF
+  GlobalGT("ii107", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii107_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii107_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii107_3", Myself)
+    DisplayStringHead(Myself, @792)
+END
+
+IF
+  GlobalGT("ii107", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii107_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii107_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii107_4", Myself)
+    DisplayStringHead(Myself, @793)
+END
+
+IF
+  GlobalGT("ii107", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii107_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii107_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii107_5", Myself)
+    DisplayStringHead(Myself, @794)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii108", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii108_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii108_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii108_1", Myself)
+    DisplayStringHead(Myself, @795)
+END
+
+IF
+  GlobalGT("ii108", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii108_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii108_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii108_2", Myself)
+    DisplayStringHead(Myself, @796)
+END
+
+IF
+  GlobalGT("ii108", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii108_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii108_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii108_3", Myself)
+    DisplayStringHead(Myself, @797)
+END
+
+IF
+  GlobalGT("ii108", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii108_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii108_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii108_4", Myself)
+    DisplayStringHead(Myself, @798)
+END
+
+IF
+  GlobalGT("ii108", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii108_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii108_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii108_5", Myself)
+    DisplayStringHead(Myself, @799)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii109", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii109_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii109_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii109_1", Myself)
+    DisplayStringHead(Myself, @800)
+END
+
+IF
+  GlobalGT("ii109", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii109_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii109_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii109_2", Myself)
+    DisplayStringHead(Myself, @801)
+END
+
+IF
+  GlobalGT("ii109", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii109_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii109_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii109_3", Myself)
+    DisplayStringHead(Myself, @802)
+END
+
+IF
+  GlobalGT("ii109", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii109_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii109_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii109_4", Myself)
+    DisplayStringHead(Myself, @803)
+END
+
+IF
+  GlobalGT("ii109", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii109_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii109_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii109_5", Myself)
+    DisplayStringHead(Myself, @804)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii110", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii110_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii110_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii110_1", Myself)
+    DisplayStringHead(Myself, @805)
+END
+
+IF
+  GlobalGT("ii110", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii110_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii110_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii110_2", Myself)
+    DisplayStringHead(Myself, @806)
+END
+
+IF
+  GlobalGT("ii110", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii110_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii110_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii110_3", Myself)
+    DisplayStringHead(Myself, @807)
+END
+
+IF
+  GlobalGT("ii110", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii110_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii110_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii110_4", Myself)
+    DisplayStringHead(Myself, @808)
+END
+
+IF
+  GlobalGT("ii110", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii110_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii110_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii110_5", Myself)
+    DisplayStringHead(Myself, @809)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii111", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii111_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii111_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii111_1", Myself)
+    DisplayStringHead(Myself, @810)
+END
+
+IF
+  GlobalGT("ii111", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii111_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii111_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii111_2", Myself)
+    DisplayStringHead(Myself, @811)
+END
+
+IF
+  GlobalGT("ii111", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii111_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii111_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii111_3", Myself)
+    DisplayStringHead(Myself, @812)
+END
+
+IF
+  GlobalGT("ii111", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii111_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii111_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii111_4", Myself)
+    DisplayStringHead(Myself, @813)
+END
+
+IF
+  GlobalGT("ii111", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii111_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii111_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii111_5", Myself)
+    DisplayStringHead(Myself, @814)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii112", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii112_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii112_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii112_1", Myself)
+    DisplayStringHead(Myself, @815)
+END
+
+IF
+  GlobalGT("ii112", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii112_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii112_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii112_2", Myself)
+    DisplayStringHead(Myself, @816)
+END
+
+IF
+  GlobalGT("ii112", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii112_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii112_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii112_3", Myself)
+    DisplayStringHead(Myself, @817)
+END
+
+IF
+  GlobalGT("ii112", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii112_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii112_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii112_4", Myself)
+    DisplayStringHead(Myself, @818)
+END
+
+IF
+  GlobalGT("ii112", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii112_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii112_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii112_5", Myself)
+    DisplayStringHead(Myself, @819)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii113", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii113_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii113_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii113_1", Myself)
+    DisplayStringHead(Myself, @820)
+END
+
+IF
+  GlobalGT("ii113", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii113_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii113_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii113_2", Myself)
+    DisplayStringHead(Myself, @821)
+END
+
+IF
+  GlobalGT("ii113", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii113_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii113_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii113_3", Myself)
+    DisplayStringHead(Myself, @822)
+END
+
+IF
+  GlobalGT("ii113", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii113_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii113_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii113_4", Myself)
+    DisplayStringHead(Myself, @823)
+END
+
+IF
+  GlobalGT("ii113", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii113_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii113_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii113_5", Myself)
+    DisplayStringHead(Myself, @824)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii114", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii114_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii114_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii114_1", Myself)
+    DisplayStringHead(Myself, @825)
+END
+
+IF
+  GlobalGT("ii114", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii114_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii114_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii114_2", Myself)
+    DisplayStringHead(Myself, @826)
+END
+
+IF
+  GlobalGT("ii114", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii114_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii114_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii114_3", Myself)
+    DisplayStringHead(Myself, @827)
+END
+
+IF
+  GlobalGT("ii114", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii114_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii114_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii114_4", Myself)
+    DisplayStringHead(Myself, @828)
+END
+
+IF
+  GlobalGT("ii114", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii114_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii114_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii114_5", Myself)
+    DisplayStringHead(Myself, @829)
+END
+
+
+//-----------------------------------------------------------------------------
+
+
+IF
+  GlobalGT("ii115", "LOCALS", %_STRIKES_FOR_ONE_%)
+  Global("ii115_1", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii115_1", "LOCALS", 1)
+    ReallyForceSpellRES("ii115_1", Myself)
+    DisplayStringHead(Myself, @830)
+END
+
+IF
+  GlobalGT("ii115", "LOCALS", %_STRIKES_FOR_TWO_%)
+  Global("ii115_2", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii115_2", "LOCALS", 1)
+    ReallyForceSpellRES("ii115_2", Myself)
+    DisplayStringHead(Myself, @831)
+END
+
+IF
+  GlobalGT("ii115", "LOCALS", %_STRIKES_FOR_THREE_%)
+  Global("ii115_3", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii115_3", "LOCALS", 1)
+    ReallyForceSpellRES("ii115_3", Myself)
+    DisplayStringHead(Myself, @832)
+END
+
+IF
+  GlobalGT("ii115", "LOCALS", %_STRIKES_FOR_FOUR_%)
+  Global("ii115_4", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii115_4", "LOCALS", 1)
+    ReallyForceSpellRES("ii115_4", Myself)
+    DisplayStringHead(Myself, @833)
+END
+
+IF
+  GlobalGT("ii115", "LOCALS", %_STRIKES_FOR_FIVE_%)
+  Global("ii115_5", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("ii115_5", "LOCALS", 1)
+    ReallyForceSpellRES("ii115_5", Myself)
+    DisplayStringHead(Myself, @834)
+END

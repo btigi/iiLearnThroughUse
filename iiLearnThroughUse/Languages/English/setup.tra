@@ -10,6 +10,23 @@
 @153 = ~Enter number of successful strikes for 4 stars~
 @154 = ~Enter number of successful strikes for 5 stars~
 
+@160 = ~Are trainers required to gain proficiencies?
+  0 No trainers required
+  1 Trainers required~
+
+@161 = ~Weapon Trainer~
+@162 = ~Weapon Trainer~
+
+@180 = ~Do trainers require payment for training
+  0 Training is free
+  1 Training requires payment~
+
+@190 = ~Enter number of gold pieces training to 1 proficiency star should cost~
+@191 = ~Enter number of gold pieces training to 2 proficiency stars should cost~
+@192 = ~Enter number of gold pieces training to 3 proficiency stars should cost~
+@193 = ~Enter number of gold pieces training to 4 proficiency stars should cost~
+@194 = ~Enter number of gold pieces training to 5 proficiency stars should cost~
+
 // 89
 @700 = ~Weapon proficiency gained: Bastard Sword~
 @701 = ~Weapon proficiency gained: Bastard Sword~
@@ -32,11 +49,11 @@
 @714 = ~Weapon proficiency gained: Short Sword~
 
 // 92
-@715 = ~Weapon proficiency gained: Axe Sword~
-@716 = ~Weapon proficiency gained: Axe Sword~
-@717 = ~Weapon proficiency gained: Axe Sword~
-@718 = ~Weapon proficiency gained: Axe Sword~
-@719 = ~Weapon proficiency gained: Axe Sword~
+@715 = ~Weapon proficiency gained: Axe~
+@716 = ~Weapon proficiency gained: Axe~
+@717 = ~Weapon proficiency gained: Axe~
+@718 = ~Weapon proficiency gained: Axe~
+@719 = ~Weapon proficiency gained: Axe~
 
 // 93
 @720 = ~Weapon proficiency gained: Two-Handed Sword~
@@ -123,11 +140,11 @@
 @779 = ~Weapon proficiency gained: Long Bow~
 
 // 105
-@780 = ~Weapon proficiency gained: ~
-@781 = ~Weapon proficiency gained: ~
-@782 = ~Weapon proficiency gained: ~
-@783 = ~Weapon proficiency gained: ~
-@784 = ~Weapon proficiency gained: ~
+@780 = ~Weapon proficiency gained: Short Bow~
+@781 = ~Weapon proficiency gained: Short Bow~
+@782 = ~Weapon proficiency gained: Short Bow~
+@783 = ~Weapon proficiency gained: Short Bow~
+@784 = ~Weapon proficiency gained: Short Bow~
 
 // 106
 @785 = ~Weapon proficiency gained: Darts~
@@ -198,3 +215,137 @@
 @832 = ~Weapon proficiency gained: Club~
 @833 = ~Weapon proficiency gained: Club~
 @834 = ~Weapon proficiency gained: Club~
+
+
+
+
+
+
+
+
+
+
+@2000 = ~Training with the bastard sword eh? That can be arranged.~
+@2001 = ~Good.~
+@2002 = ~I've changed my mind. Goodbye.~
+@2003 = ~Show me your current level, and we'll take it from there.~
+@2004 = ~_STRIKES_FOR_ONE_~
+@2005 = ~Lets get started.~
+@2006 = ~_STRIKES_FOR_TWO_~
+@2007 = ~_STRIKES_FOR_THREE_~
+@2008 = ~_STRIKES_FOR_FOUR_~
+@2009 = ~_STRIKES_FOR_FIVE_~
+@2010 = ~On second thoughts, I don't need any training at the moment.~
+@2011 = ~Congratulations friend, you have made a fine start.~
+@2012 = ~Thank you.~
+@2013 = ~Just as a sculptor needs stone to sculpt, so a trainer needs something to build upon. Come back when you've more experience of battle my friend.~
+@2014 = ~I will return.~
+@2015 = ~Congratulations friend, your technique is improving.~
+@2016 = ~You should master what you already know before trying to progress to the next level.~
+@2017 = ~Good, good, you learn quickly.~
+@2018 = ~Your technique is good, but not perfect. Practice your current skills, then perhaps I will train you.~
+@2019 = ~You handle your weapon well, though let me show you a few more tricks...~
+@2020 = ~Your basic skill is sound, though you need more practice with some aspects. Come back to me when you have practiced more.~
+@2021 = ~Excellent! You know how to use your weapon well. I can teach you one last thing.~
+@2022 = ~I see you are adept at using your weapon, however, before I can train you further, you must learn to use your weapon as an extension of yourself. This will come with practice, visit me again when you have more experience of battle.~
+@2023 = ~You already know everything I can teach, rarely have I seen a weapon mastered so well.~
+@2024 = ~Training with the long sword eh? That can be arranged.~
+@2025 = ~Training with the short sword eh? That can be arranged.~
+@2026 = ~Training with the axe eh? That can be arranged.~
+@2027 = ~Training with the two-handed sword eh? That can be arranged.~
+@2028 = ~Training with the katana eh? That can be arranged.~
+@2029 = ~Training with the scimitar eh? That can be arragned..~
+@2030 = ~Training with the dagger eh? That can be arranged.~
+@2031 = ~Training with the warhammer eh? That can be arranged.~
+@2032 = ~Training with the spear eh? That can be arranged.~
+@2033 = ~Training with the halbard eh? That can be arranged.~
+@2034 = ~Training with the flail eh? That can be arranged.~
+@2035 = ~Training with the mace eh? That can be arranged.~
+@2036 = ~Training with the quarterstaff eh? That can be arranged.~
+@2037 = ~Training with the crossbow eh? That can be arranged.~
+@2038 = ~Training with the longbow eh? That can be arranged.~
+@2039 = ~Training with the shortbow eh? That can be arranged.~
+@2040 = ~Training with darts eh? That can be arranged.~
+@2041 = ~Training with the sling eh? That can be arranged.~
+@2042 = ~Training with blackjacks eh? That can be arranged.~
+@2043 = ~Very well. Show me your current skill level.~
+@2044 = ~Training with guns eh? That can be arranged.~
+@2045 = ~Training with martial arts eh? That can be arranged.~
+@2046 = ~Training with two-handed weapons eh? That can be arranged.~
+@2047 = ~Training with sword and shield fighting eh? That can be arranged.~
+@2048 = ~Training with sinle weapon fighting eh? That can be arranged.~
+@2049 = ~Training with two weapon fighting eh? That can be arranged.~
+@2050 = ~Training with clubs eh? That can be arranged.~
+
+
+
+
+
+
+
+
+
+
+@3000 = ~Training with the bastard sword eh? That can be arranged.~
+@3001 = ~Good.~
+@3002 = ~I've changed my mind. Goodbye.~
+@3003 = ~Show me your current level, and we'll take it from there.~
+@3004 = ~_STRIKES_FOR_ONE_~
+@3005 = ~Lets get started.~
+@3006 = ~_STRIKES_FOR_TWO_~
+@3007 = ~_STRIKES_FOR_THREE_~
+@3008 = ~_STRIKES_FOR_FOUR_~
+@3009 = ~_STRIKES_FOR_FIVE_~
+@3010 = ~On second thoughts, I don't need any training at the moment.~
+@3011 = ~I can provide training, it will cost %level1gold%gp you though.~
+@3012 = ~level1gold~
+@3013 = ~I will pay.~
+@3014 = ~I don't have that much gold.~
+@3015 = ~Congratulations friend, you have made a fine start.~
+@3016 = ~Thank you.~
+@3017 = ~Just as a sculptor needs stone to sculpt, so a trainer needs something to build upon. Come back when you've more experience of battle my friend.~
+@3018 = ~I will return.~
+@3019 = ~I can provide training, it will cost %level2gold%gp you though.~
+@3020 = ~level2gold~
+@3021 = ~Congratulations friend, your technique is improving.~
+@3022 = ~You should master what you already know before trying to progress to the next level.~
+@3023 = ~I can provide training, it will cost %level3gold%gp you though.~
+@3024 = ~level3gold~
+@3025 = ~Good, good, you learn quickly.~
+@3026 = ~Your technique is good, but not perfect. Practice your current skills, then perhaps I will train you.~
+@3027 = ~I can provide training, it will cost %level4gold%gp you though.~
+@3028 = ~level4gold~
+@3029 = ~You handle your weapon well, though let me show you a few more tricks...~
+@3030 = ~Your basic skill is sound, though you need more practice with some aspects. Come back to me when you have practiced more.~
+@3031 = ~I can provide training, it will cost %level5gold%gp you though.~
+@3032 = ~level5gold~
+@3033 = ~Excellent! You know how to use your weapon well. I can teach you one last thing.~
+@3034 = ~I see you are adept at using your weapon, however, before I can train you further, you must learn to use your weapon as an extension of yourself. This will come with practice, visit me again when you have more experience of battle.~
+@3035 = ~You already know everything I can teach, rarely have I seen a weapon mastered so well.~
+@3036 = ~Training with the long sword eh? That can be arranged.~
+@3037 = ~Training with the short sword eh? That can be arranged.~
+@3038 = ~Training with the axe eh? That can be arranged.~
+@3039 = ~Training with the two-handed sword eh? That can be arranged.~
+@3040 = ~Training with the katana eh? That can be arranged.~
+@3041 = ~Training with the scimitar eh? That can be arragned..~
+@3042 = ~Training with the dagger eh? That can be arranged.~
+@3043 = ~Training with the warhammer eh? That can be arranged.~
+@3044 = ~Training with the spear eh? That can be arranged.~
+@3045 = ~Training with the halbard eh? That can be arranged.~
+@3046 = ~Training with the flail eh? That can be arranged.~
+@3047 = ~Training with the mace eh? That can be arranged.~
+@3048 = ~Training with the quarterstaff eh? That can be arranged.~
+@3049 = ~Training with the crossbow eh? That can be arranged.~
+@3050 = ~Training with the longbow eh? That can be arranged.~
+@3051 = ~Training with the shortbow eh? That can be arranged.~
+@3052 = ~Training with darts eh? That can be arranged.~
+@3053 = ~Training with the sling eh? That can be arranged.~
+@3054 = ~Training with blackjacks eh? That can be arranged.~
+@3055 = ~Very well. Show me your current skill level.~
+@3056 = ~Training with guns eh? That can be arranged.~
+@3057 = ~Training with martial arts eh? That can be arranged.~
+@3058 = ~Training with two-handed weapons eh? That can be arranged.~
+@3059 = ~Training with sword and shield fighting eh? That can be arranged.~
+@3060 = ~Training with sinle weapon fighting eh? That can be arranged.~
+@3061 = ~Training with two weapon fighting eh? That can be arranged.~
+@3062 = ~Training with clubs eh? That can be arranged.~

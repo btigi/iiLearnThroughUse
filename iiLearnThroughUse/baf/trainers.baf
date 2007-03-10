@@ -1,0 +1,3357 @@
+IF
+  Global("ii89_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii89_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii89_1", Myself)  // do it
+    DisplayStringHead(Myself, @700)        // notify
+END
+
+IF
+  GlobalGT("ii_89", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii89_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @700)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii89_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii89_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii89_1", Myself)  // do it
+    DisplayStringHead(Myself, @700)        // notify
+END
+
+IF
+  GlobalGT("ii_89", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii89_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @700)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii89_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii89_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii89_1", Myself)  // do it
+    DisplayStringHead(Myself, @700)        // notify
+END
+
+IF
+  GlobalGT("ii_89", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii89_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @700)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii89_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii89_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii89_1", Myself)  // do it
+    DisplayStringHead(Myself, @700)        // notify
+END
+
+IF
+  GlobalGT("ii_89", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii89_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @700)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii89_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii89_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii89", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii89_1", Myself)  // do it
+    DisplayStringHead(Myself, @700)        // notify
+END
+
+IF
+  GlobalGT("ii_89", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii89_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @700)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii90_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii90", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii90_1", Myself)  // do it
+    DisplayStringHead(Myself, @705)        // notify
+END
+
+IF
+  GlobalGT("ii_90", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii90_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @705)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii90_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii90", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii90_1", Myself)  // do it
+    DisplayStringHead(Myself, @705)        // notify
+END
+
+IF
+  GlobalGT("ii_90", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii90_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @705)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii90_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii90", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii90_1", Myself)  // do it
+    DisplayStringHead(Myself, @705)        // notify
+END
+
+IF
+  GlobalGT("ii_90", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii90_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @705)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii90_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii90", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii90_1", Myself)  // do it
+    DisplayStringHead(Myself, @705)        // notify
+END
+
+IF
+  GlobalGT("ii_90", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii90_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @705)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii90_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii90_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii90", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii90_1", Myself)  // do it
+    DisplayStringHead(Myself, @705)        // notify
+END
+
+IF
+  GlobalGT("ii_90", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii90_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @705)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii91_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii91", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii91_1", Myself)  // do it
+    DisplayStringHead(Myself, @710)        // notify
+END
+
+IF
+  GlobalGT("ii_91", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii91_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @710)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii91_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii91", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii91_1", Myself)  // do it
+    DisplayStringHead(Myself, @710)        // notify
+END
+
+IF
+  GlobalGT("ii_91", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii91_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @710)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii91_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii91", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii91_1", Myself)  // do it
+    DisplayStringHead(Myself, @710)        // notify
+END
+
+IF
+  GlobalGT("ii_91", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii91_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @710)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii91_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii91", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii91_1", Myself)  // do it
+    DisplayStringHead(Myself, @710)        // notify
+END
+
+IF
+  GlobalGT("ii_91", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii91_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @710)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii91_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii91_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii91", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii91_1", Myself)  // do it
+    DisplayStringHead(Myself, @710)        // notify
+END
+
+IF
+  GlobalGT("ii_91", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii91_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @710)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii92_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii92", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii92_1", Myself)  // do it
+    DisplayStringHead(Myself, @715)        // notify
+END
+
+IF
+  GlobalGT("ii_92", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii92_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @715)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii92_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii92", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii92_1", Myself)  // do it
+    DisplayStringHead(Myself, @715)        // notify
+END
+
+IF
+  GlobalGT("ii_92", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii92_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @715)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii92_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii92", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii92_1", Myself)  // do it
+    DisplayStringHead(Myself, @715)        // notify
+END
+
+IF
+  GlobalGT("ii_92", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii92_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @715)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii92_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii92", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii92_1", Myself)  // do it
+    DisplayStringHead(Myself, @715)        // notify
+END
+
+IF
+  GlobalGT("ii_92", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii92_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @715)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii92_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii92_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii92", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii92_1", Myself)  // do it
+    DisplayStringHead(Myself, @715)        // notify
+END
+
+IF
+  GlobalGT("ii_92", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii92_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @715)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii93_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii93", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii93_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_93", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii93_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii93_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii93", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii93_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_93", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii93_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii93_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii93", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii93_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_93", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii93_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii93_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii93", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii93_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_93", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii93_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii93_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii93_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii93", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii93_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_93", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii93_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii94_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii94", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii94_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_94", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii94_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii94_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii94", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii94_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_94", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii94_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii94_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii94", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii94_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_94", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii94_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii94_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii94", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii94_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_94", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii94_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii94_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii94_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii94", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii94_1", Myself)  // do it
+    DisplayStringHead(Myself, @720)        // notify
+END
+
+IF
+  GlobalGT("ii_94", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii94_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @720)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii95_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii95", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii95_1", Myself)  // do it
+    DisplayStringHead(Myself, @725)        // notify
+END
+
+IF
+  GlobalGT("ii_95", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii95_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @725)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii95_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii95", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii95_1", Myself)  // do it
+    DisplayStringHead(Myself, @725)        // notify
+END
+
+IF
+  GlobalGT("ii_95", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii95_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @725)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii95_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii95", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii95_1", Myself)  // do it
+    DisplayStringHead(Myself, @725)        // notify
+END
+
+IF
+  GlobalGT("ii_95", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii95_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @725)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii95_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii95", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii95_1", Myself)  // do it
+    DisplayStringHead(Myself, @725)        // notify
+END
+
+IF
+  GlobalGT("ii_95", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii95_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @725)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii95_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii95_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii95", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii95_1", Myself)  // do it
+    DisplayStringHead(Myself, @725)        // notify
+END
+
+IF
+  GlobalGT("ii_95", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii95_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @725)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii96_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii96", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii96_1", Myself)  // do it
+    DisplayStringHead(Myself, @730)        // notify
+END
+
+IF
+  GlobalGT("ii_96", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii96_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @730)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii96_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii96", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii96_1", Myself)  // do it
+    DisplayStringHead(Myself, @730)        // notify
+END
+
+IF
+  GlobalGT("ii_96", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii96_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @730)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii96_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii96", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii96_1", Myself)  // do it
+    DisplayStringHead(Myself, @730)        // notify
+END
+
+IF
+  GlobalGT("ii_96", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii96_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @730)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii96_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii96", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii96_1", Myself)  // do it
+    DisplayStringHead(Myself, @730)        // notify
+END
+
+IF
+  GlobalGT("ii_96", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii96_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @730)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii96_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii96_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii96", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii96_1", Myself)  // do it
+    DisplayStringHead(Myself, @730)        // notify
+END
+
+IF
+  GlobalGT("ii_96", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii96_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @730)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii97_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii97", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii97_1", Myself)  // do it
+    DisplayStringHead(Myself, @735)        // notify
+END
+
+IF
+  GlobalGT("ii_97", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii97_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @735)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii97_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii97", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii97_1", Myself)  // do it
+    DisplayStringHead(Myself, @735)        // notify
+END
+
+IF
+  GlobalGT("ii_97", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii97_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @735)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii97_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii97", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii97_1", Myself)  // do it
+    DisplayStringHead(Myself, @735)        // notify
+END
+
+IF
+  GlobalGT("ii_97", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii97_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @735)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii97_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii97", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii97_1", Myself)  // do it
+    DisplayStringHead(Myself, @735)        // notify
+END
+
+IF
+  GlobalGT("ii_97", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii97_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @735)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii97_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii97_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii97", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii97_1", Myself)  // do it
+    DisplayStringHead(Myself, @735)        // notify
+END
+
+IF
+  GlobalGT("ii_97", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii97_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @735)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii98_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii98", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii98_1", Myself)  // do it
+    DisplayStringHead(Myself, @740)        // notify
+END
+
+IF
+  GlobalGT("ii_98", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii98_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @740)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii98_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii98", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii98_1", Myself)  // do it
+    DisplayStringHead(Myself, @740)        // notify
+END
+
+IF
+  GlobalGT("ii_98", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii98_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @740)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii98_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii98", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii98_1", Myself)  // do it
+    DisplayStringHead(Myself, @740)        // notify
+END
+
+IF
+  GlobalGT("ii_98", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii98_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @740)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii98_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii98", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii98_1", Myself)  // do it
+    DisplayStringHead(Myself, @740)        // notify
+END
+
+IF
+  GlobalGT("ii_98", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii98_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @740)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii98_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii98_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii98", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii98_1", Myself)  // do it
+    DisplayStringHead(Myself, @740)        // notify
+END
+
+IF
+  GlobalGT("ii_98", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii98_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @740)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii99_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii99", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii99_1", Myself)  // do it
+    DisplayStringHead(Myself, @745)        // notify
+END
+
+IF
+  GlobalGT("ii_99", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii99_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @745)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii99_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii99", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii99_1", Myself)  // do it
+    DisplayStringHead(Myself, @745)        // notify
+END
+
+IF
+  GlobalGT("ii_99", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii99_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @745)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii99_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii99", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii99_1", Myself)  // do it
+    DisplayStringHead(Myself, @745)        // notify
+END
+
+IF
+  GlobalGT("ii_99", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii99_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @745)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii99_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii99", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii99_1", Myself)  // do it
+    DisplayStringHead(Myself, @745)        // notify
+END
+
+IF
+  GlobalGT("ii_99", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii99_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @745)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii99_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii99_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii99", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii99_1", Myself)  // do it
+    DisplayStringHead(Myself, @745)        // notify
+END
+
+IF
+  GlobalGT("ii_99", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii99_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @745)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii100_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii100", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii100_1", Myself)  // do it
+    DisplayStringHead(Myself, @750)        // notify
+END
+
+IF
+  GlobalGT("ii_100", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii100_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @750)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii100_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii100", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii100_1", Myself)  // do it
+    DisplayStringHead(Myself, @750)        // notify
+END
+
+IF
+  GlobalGT("ii_100", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii100_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @750)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii100_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii100", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii100_1", Myself)  // do it
+    DisplayStringHead(Myself, @750)        // notify
+END
+
+IF
+  GlobalGT("ii_100", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii100_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @750)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii100_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii100", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii100_1", Myself)  // do it
+    DisplayStringHead(Myself, @750)        // notify
+END
+
+IF
+  GlobalGT("ii_100", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii100_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @750)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii100_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #100
+    SetGlobal("ii100_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii100", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii100_1", Myself)  // do it
+    DisplayStringHead(Myself, @750)        // notify
+END
+
+IF
+  GlobalGT("ii_100", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii100_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @750)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii101_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #101
+    SetGlobal("ii101_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii101", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii101_1", Myself)  // do it
+    DisplayStringHead(Myself, @755)        // notify
+END
+
+IF
+  GlobalGT("ii_101", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii101_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @755)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii101_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #101
+    SetGlobal("ii101_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii101", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii101_1", Myself)  // do it
+    DisplayStringHead(Myself, @755)        // notify
+END
+
+IF
+  GlobalGT("ii_101", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii101_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @755)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii101_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #101
+    SetGlobal("ii101_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii101", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii101_1", Myself)  // do it
+    DisplayStringHead(Myself, @755)        // notify
+END
+
+IF
+  GlobalGT("ii_101", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii101_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @755)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii101_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #101
+    SetGlobal("ii101_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii101", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii101_1", Myself)  // do it
+    DisplayStringHead(Myself, @755)        // notify
+END
+
+IF
+  GlobalGT("ii_101", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii101_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @755)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii101_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #101
+    SetGlobal("ii101_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii101", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii101_1", Myself)  // do it
+    DisplayStringHead(Myself, @755)        // notify
+END
+
+IF
+  GlobalGT("ii_101", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii101_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @755)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii102_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #102
+    SetGlobal("ii102_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii102", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii102_1", Myself)  // do it
+    DisplayStringHead(Myself, @760)        // notify
+END
+
+IF
+  GlobalGT("ii_102", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii102_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @760)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii102_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #102
+    SetGlobal("ii102_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii102", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii102_1", Myself)  // do it
+    DisplayStringHead(Myself, @760)        // notify
+END
+
+IF
+  GlobalGT("ii_102", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii102_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @760)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii102_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #102
+    SetGlobal("ii102_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii102", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii102_1", Myself)  // do it
+    DisplayStringHead(Myself, @760)        // notify
+END
+
+IF
+  GlobalGT("ii_102", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii102_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @760)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii102_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #102
+    SetGlobal("ii102_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii102", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii102_1", Myself)  // do it
+    DisplayStringHead(Myself, @760)        // notify
+END
+
+IF
+  GlobalGT("ii_102", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii102_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @760)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii102_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #102
+    SetGlobal("ii102_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii102", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii102_1", Myself)  // do it
+    DisplayStringHead(Myself, @760)        // notify
+END
+
+IF
+  GlobalGT("ii_102", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii102_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @760)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii103_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #103
+    SetGlobal("ii103_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii103", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii103_1", Myself)  // do it
+    DisplayStringHead(Myself, @765)        // notify
+END
+
+IF
+  GlobalGT("ii_103", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii103_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @765)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii103_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #103
+    SetGlobal("ii103_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii103", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii103_1", Myself)  // do it
+    DisplayStringHead(Myself, @765)        // notify
+END
+
+IF
+  GlobalGT("ii_103", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii103_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @765)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii103_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #103
+    SetGlobal("ii103_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii103", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii103_1", Myself)  // do it
+    DisplayStringHead(Myself, @765)        // notify
+END
+
+IF
+  GlobalGT("ii_103", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii103_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @765)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii103_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #103
+    SetGlobal("ii103_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii103", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii103_1", Myself)  // do it
+    DisplayStringHead(Myself, @765)        // notify
+END
+
+IF
+  GlobalGT("ii_103", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii103_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @765)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii103_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #103
+    SetGlobal("ii103_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii103", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii103_1", Myself)  // do it
+    DisplayStringHead(Myself, @765)        // notify
+END
+
+IF
+  GlobalGT("ii_103", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii103_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @765)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii104_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #104
+    SetGlobal("ii104_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii104", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii104_1", Myself)  // do it
+    DisplayStringHead(Myself, @770)        // notify
+END
+
+IF
+  GlobalGT("ii_104", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii104_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @770)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii104_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #104
+    SetGlobal("ii104_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii104", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii104_1", Myself)  // do it
+    DisplayStringHead(Myself, @770)        // notify
+END
+
+IF
+  GlobalGT("ii_104", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii104_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @770)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii104_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #104
+    SetGlobal("ii104_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii104", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii104_1", Myself)  // do it
+    DisplayStringHead(Myself, @770)        // notify
+END
+
+IF
+  GlobalGT("ii_104", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii104_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @770)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii104_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #104
+    SetGlobal("ii104_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii104", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii104_1", Myself)  // do it
+    DisplayStringHead(Myself, @770)        // notify
+END
+
+IF
+  GlobalGT("ii_104", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii104_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @770)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii104_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #104
+    SetGlobal("ii104_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii104", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii104_1", Myself)  // do it
+    DisplayStringHead(Myself, @770)        // notify
+END
+
+IF
+  GlobalGT("ii_104", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii104_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @770)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii105_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #105
+    SetGlobal("ii105_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii105", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii105_1", Myself)  // do it
+    DisplayStringHead(Myself, @775)        // notify
+END
+
+IF
+  GlobalGT("ii_105", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii105_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @775)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii105_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #105
+    SetGlobal("ii105_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii105", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii105_1", Myself)  // do it
+    DisplayStringHead(Myself, @775)        // notify
+END
+
+IF
+  GlobalGT("ii_105", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii105_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @775)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii105_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #105
+    SetGlobal("ii105_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii105", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii105_1", Myself)  // do it
+    DisplayStringHead(Myself, @775)        // notify
+END
+
+IF
+  GlobalGT("ii_105", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii105_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @775)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii105_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #105
+    SetGlobal("ii105_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii105", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii105_1", Myself)  // do it
+    DisplayStringHead(Myself, @775)        // notify
+END
+
+IF
+  GlobalGT("ii_105", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii105_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @775)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii105_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #105
+    SetGlobal("ii105_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii105", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii105_1", Myself)  // do it
+    DisplayStringHead(Myself, @775)        // notify
+END
+
+IF
+  GlobalGT("ii_105", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii105_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @775)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii106_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #106
+    SetGlobal("ii106_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii106", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii106_1", Myself)  // do it
+    DisplayStringHead(Myself, @780)        // notify
+END
+
+IF
+  GlobalGT("ii_106", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii106_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @780)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii106_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #106
+    SetGlobal("ii106_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii106", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii106_1", Myself)  // do it
+    DisplayStringHead(Myself, @780)        // notify
+END
+
+IF
+  GlobalGT("ii_106", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii106_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @780)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii106_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #106
+    SetGlobal("ii106_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii106", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii106_1", Myself)  // do it
+    DisplayStringHead(Myself, @780)        // notify
+END
+
+IF
+  GlobalGT("ii_106", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii106_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @780)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii106_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #106
+    SetGlobal("ii106_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii106", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii106_1", Myself)  // do it
+    DisplayStringHead(Myself, @780)        // notify
+END
+
+IF
+  GlobalGT("ii_106", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii106_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @780)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii106_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #106
+    SetGlobal("ii106_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii106", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii106_1", Myself)  // do it
+    DisplayStringHead(Myself, @780)        // notify
+END
+
+IF
+  GlobalGT("ii_106", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii106_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @780)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii107_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #107
+    SetGlobal("ii107_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii107", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii107_1", Myself)  // do it
+    DisplayStringHead(Myself, @785)        // notify
+END
+
+IF
+  GlobalGT("ii_107", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii107_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @785)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii107_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #107
+    SetGlobal("ii107_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii107", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii107_1", Myself)  // do it
+    DisplayStringHead(Myself, @785)        // notify
+END
+
+IF
+  GlobalGT("ii_107", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii107_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @785)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii107_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #107
+    SetGlobal("ii107_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii107", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii107_1", Myself)  // do it
+    DisplayStringHead(Myself, @785)        // notify
+END
+
+IF
+  GlobalGT("ii_107", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii107_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @785)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii107_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #107
+    SetGlobal("ii107_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii107", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii107_1", Myself)  // do it
+    DisplayStringHead(Myself, @785)        // notify
+END
+
+IF
+  GlobalGT("ii_107", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii107_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @785)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii107_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #107
+    SetGlobal("ii107_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii107", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii107_1", Myself)  // do it
+    DisplayStringHead(Myself, @785)        // notify
+END
+
+IF
+  GlobalGT("ii_107", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii107_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @785)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii108_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #108
+    SetGlobal("ii108_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii108", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii108_1", Myself)  // do it
+    DisplayStringHead(Myself, @790)        // notify
+END
+
+IF
+  GlobalGT("ii_108", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii108_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @790)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii108_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #108
+    SetGlobal("ii108_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii108", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii108_1", Myself)  // do it
+    DisplayStringHead(Myself, @790)        // notify
+END
+
+IF
+  GlobalGT("ii_108", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii108_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @790)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii108_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #108
+    SetGlobal("ii108_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii108", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii108_1", Myself)  // do it
+    DisplayStringHead(Myself, @790)        // notify
+END
+
+IF
+  GlobalGT("ii_108", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii108_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @790)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii108_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #108
+    SetGlobal("ii108_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii108", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii108_1", Myself)  // do it
+    DisplayStringHead(Myself, @790)        // notify
+END
+
+IF
+  GlobalGT("ii_108", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii108_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @790)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii108_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #108
+    SetGlobal("ii108_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii108", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii108_1", Myself)  // do it
+    DisplayStringHead(Myself, @790)        // notify
+END
+
+IF
+  GlobalGT("ii_108", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii108_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @790)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii109_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #109
+    SetGlobal("ii109_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii109", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii109_1", Myself)  // do it
+    DisplayStringHead(Myself, @795)        // notify
+END
+
+IF
+  GlobalGT("ii_109", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii109_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @795)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii109_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #109
+    SetGlobal("ii109_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii109", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii109_1", Myself)  // do it
+    DisplayStringHead(Myself, @795)        // notify
+END
+
+IF
+  GlobalGT("ii_109", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii109_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @795)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii109_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #109
+    SetGlobal("ii109_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii109", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii109_1", Myself)  // do it
+    DisplayStringHead(Myself, @795)        // notify
+END
+
+IF
+  GlobalGT("ii_109", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii109_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @795)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii109_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #109
+    SetGlobal("ii109_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii109", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii109_1", Myself)  // do it
+    DisplayStringHead(Myself, @795)        // notify
+END
+
+IF
+  GlobalGT("ii_109", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii109_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @795)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii109_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #109
+    SetGlobal("ii109_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii109", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii109_1", Myself)  // do it
+    DisplayStringHead(Myself, @795)        // notify
+END
+
+IF
+  GlobalGT("ii_109", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii109_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @795)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii110_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #110
+    SetGlobal("ii110_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii110", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii110_1", Myself)  // do it
+    DisplayStringHead(Myself, @800)        // notify
+END
+
+IF
+  GlobalGT("ii_110", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii110_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @800)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii110_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #110
+    SetGlobal("ii110_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii110", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii110_1", Myself)  // do it
+    DisplayStringHead(Myself, @800)        // notify
+END
+
+IF
+  GlobalGT("ii_110", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii110_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @800)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii110_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #110
+    SetGlobal("ii110_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii110", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii110_1", Myself)  // do it
+    DisplayStringHead(Myself, @800)        // notify
+END
+
+IF
+  GlobalGT("ii_110", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii110_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @800)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii110_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #110
+    SetGlobal("ii110_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii110", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii110_1", Myself)  // do it
+    DisplayStringHead(Myself, @800)        // notify
+END
+
+IF
+  GlobalGT("ii_110", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii110_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @800)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii110_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #110
+    SetGlobal("ii110_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii110", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii110_1", Myself)  // do it
+    DisplayStringHead(Myself, @800)        // notify
+END
+
+IF
+  GlobalGT("ii_110", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii110_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @800)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii111_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #111
+    SetGlobal("ii111_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii111", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii111_1", Myself)  // do it
+    DisplayStringHead(Myself, @805)        // notify
+END
+
+IF
+  GlobalGT("ii_111", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii111_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @805)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii111_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #111
+    SetGlobal("ii111_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii111", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii111_1", Myself)  // do it
+    DisplayStringHead(Myself, @805)        // notify
+END
+
+IF
+  GlobalGT("ii_111", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii111_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @805)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii111_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #111
+    SetGlobal("ii111_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii111", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii111_1", Myself)  // do it
+    DisplayStringHead(Myself, @805)        // notify
+END
+
+IF
+  GlobalGT("ii_111", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii111_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @805)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii111_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #111
+    SetGlobal("ii111_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii111", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii111_1", Myself)  // do it
+    DisplayStringHead(Myself, @805)        // notify
+END
+
+IF
+  GlobalGT("ii_111", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii111_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @805)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii111_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #111
+    SetGlobal("ii111_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii111", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii111_1", Myself)  // do it
+    DisplayStringHead(Myself, @805)        // notify
+END
+
+IF
+  GlobalGT("ii_111", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii111_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @805)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii112_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #112
+    SetGlobal("ii112_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii112", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii112_1", Myself)  // do it
+    DisplayStringHead(Myself, @810)        // notify
+END
+
+IF
+  GlobalGT("ii_112", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii112_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @810)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii112_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #112
+    SetGlobal("ii112_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii112", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii112_1", Myself)  // do it
+    DisplayStringHead(Myself, @810)        // notify
+END
+
+IF
+  GlobalGT("ii_112", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii112_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @810)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii112_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #112
+    SetGlobal("ii112_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii112", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii112_1", Myself)  // do it
+    DisplayStringHead(Myself, @810)        // notify
+END
+
+IF
+  GlobalGT("ii_112", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii112_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @810)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii112_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #112
+    SetGlobal("ii112_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii112", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii112_1", Myself)  // do it
+    DisplayStringHead(Myself, @810)        // notify
+END
+
+IF
+  GlobalGT("ii_112", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii112_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @810)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii112_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #112
+    SetGlobal("ii112_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii112", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii112_1", Myself)  // do it
+    DisplayStringHead(Myself, @810)        // notify
+END
+
+IF
+  GlobalGT("ii_112", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii112_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @810)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii113_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #113
+    SetGlobal("ii113_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii113", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii113_1", Myself)  // do it
+    DisplayStringHead(Myself, @815)        // notify
+END
+
+IF
+  GlobalGT("ii_113", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii113_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @815)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii113_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #113
+    SetGlobal("ii113_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii113", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii113_1", Myself)  // do it
+    DisplayStringHead(Myself, @815)        // notify
+END
+
+IF
+  GlobalGT("ii_113", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii113_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @815)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii113_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #113
+    SetGlobal("ii113_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii113", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii113_1", Myself)  // do it
+    DisplayStringHead(Myself, @815)        // notify
+END
+
+IF
+  GlobalGT("ii_113", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii113_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @815)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii113_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #113
+    SetGlobal("ii113_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii113", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii113_1", Myself)  // do it
+    DisplayStringHead(Myself, @815)        // notify
+END
+
+IF
+  GlobalGT("ii_113", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii113_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @815)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii113_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #113
+    SetGlobal("ii113_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii113", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii113_1", Myself)  // do it
+    DisplayStringHead(Myself, @815)        // notify
+END
+
+IF
+  GlobalGT("ii_113", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii113_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @815)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii114_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #114
+    SetGlobal("ii114_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii114", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii114_1", Myself)  // do it
+    DisplayStringHead(Myself, @820)        // notify
+END
+
+IF
+  GlobalGT("ii_114", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii114_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @820)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii114_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #114
+    SetGlobal("ii114_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii114", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii114_1", Myself)  // do it
+    DisplayStringHead(Myself, @820)        // notify
+END
+
+IF
+  GlobalGT("ii_114", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii114_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @820)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii114_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #114
+    SetGlobal("ii114_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii114", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii114_1", Myself)  // do it
+    DisplayStringHead(Myself, @820)        // notify
+END
+
+IF
+  GlobalGT("ii_114", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii114_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @820)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii114_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #114
+    SetGlobal("ii114_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii114", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii114_1", Myself)  // do it
+    DisplayStringHead(Myself, @820)        // notify
+END
+
+IF
+  GlobalGT("ii_114", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii114_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @820)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii114_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #114
+    SetGlobal("ii114_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii114", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii114_1", Myself)  // do it
+    DisplayStringHead(Myself, @820)        // notify
+END
+
+IF
+  GlobalGT("ii_114", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii114_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @820)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+  Global("ii115_ok1", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #115
+    SetGlobal("ii115_ok1", "LOCALS", 2)     // mark as done
+    SetGlobal("ii115", "LOCALS", %_STRIKES_FOR_ONE_%)  // reset
+    ReallyForceSpellRES("ii115_1", Myself)  // do it
+    DisplayStringHead(Myself, @825)        // notify
+END
+
+IF
+  GlobalGT("ii_115", "LOCALS", %_STRIKES_FOR_ONE_%)  // could do
+  Global("ii115_ok1", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @825)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii115_ok2", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #115
+    SetGlobal("ii115_ok2", "LOCALS", 2)     // mark as done
+    SetGlobal("ii115", "LOCALS", %_STRIKES_FOR_TWO_%)  // reset
+    ReallyForceSpellRES("ii115_1", Myself)  // do it
+    DisplayStringHead(Myself, @825)        // notify
+END
+
+IF
+  GlobalGT("ii_115", "LOCALS", %_STRIKES_FOR_TWO_%)  // could do
+  Global("ii115_ok2", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @825)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii115_ok3", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #115
+    SetGlobal("ii115_ok3", "LOCALS", 2)     // mark as done
+    SetGlobal("ii115", "LOCALS", %_STRIKES_FOR_THREE_%)  // reset
+    ReallyForceSpellRES("ii115_1", Myself)  // do it
+    DisplayStringHead(Myself, @825)        // notify
+END
+
+IF
+  GlobalGT("ii_115", "LOCALS", %_STRIKES_FOR_THREE_%)  // could do
+  Global("ii115_ok3", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @825)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii115_ok4", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #115
+    SetGlobal("ii115_ok4", "LOCALS", 2)     // mark as done
+    SetGlobal("ii115", "LOCALS", %_STRIKES_FOR_FOUR_%)  // reset
+    ReallyForceSpellRES("ii115_1", Myself)  // do it
+    DisplayStringHead(Myself, @825)        // notify
+END
+
+IF
+  GlobalGT("ii_115", "LOCALS", %_STRIKES_FOR_FOUR_%)  // could do
+  Global("ii115_ok4", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @825)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END
+
+
+
+IF
+  Global("ii115_ok5", "LOCALS", 1)  // allowed to
+THEN
+  RESPONSE #115
+    SetGlobal("ii115_ok5", "LOCALS", 2)     // mark as done
+    SetGlobal("ii115", "LOCALS", %_STRIKES_FOR_FIVE_%)  // reset
+    ReallyForceSpellRES("ii115_1", Myself)  // do it
+    DisplayStringHead(Myself, @825)        // notify
+END
+
+IF
+  GlobalGT("ii_115", "LOCALS", %_STRIKES_FOR_FIVE_%)  // could do
+  Global("ii115_ok5", "LOCALS", 0)             // but can't do
+THEN
+  RESPONSE #20
+    DisplayStringHead(Myself, @825)           // notify
+  RESPONSE #20
+    NoAction()                                // do nothing
+END

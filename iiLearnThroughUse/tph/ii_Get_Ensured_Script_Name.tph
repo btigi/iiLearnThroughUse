@@ -1,0 +1,51 @@
+// ----------------------------------------------------------------------------
+// Name:   Get_Ensured_Script_Name
+// Author: igi
+// Date:   24/02/2007
+// ----------------------------------------------------------------------------
+
+/*
+Summary
+  Return the script name of an area file. If no script name is set, write one, based
+  on the area filename, and return that.
+
+Variables
+  %iiareaname%    = the area we are interested in (e.g. AR0700)
+  %iiareascript%  = the script assigned to the area
+*/
+
+DEFINE_ACTION_MACRO ii_Get_Ensured_Script_Name
+BEGIN
+  OUTER_SPRINT iiareascript ""
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~%iiareaname%.are~) THEN
+  BEGIN
+    PRINT ~Resources exist (%iiareaname%)~
+
+    COPY_EXISTING ~%iiareaname%.are~ ~override~
+      PATCH_IF (SOURCE_SIZE > 0x11b) THEN
+      BEGIN
+        PATCH_PRINT ~Valid .are size (%iiareaname%)~
+
+        //------------------------------
+        // Read in values
+        //------------------------------
+        READ_ASCII 0x94 "iiareascript"
+
+        PATCH_PRINT ~Current value read (%iiareascript%)~
+
+        //------------------------------
+        // Write changes
+        //------------------------------
+        PATCH_IF ("" STRING_COMPARE_CASE "%iiareascript%" = 0) BEGIN
+          WRITE_EVALUATED_ASCII 0x94 ~%SOURCE_RES%~
+          SPRINT iiareascript ~%SOURCE_RES%~
+          PATCH_PRINT ~New value assigned (%iiareascript%)~
+        END
+      END
+    BUT_ONLY_IF_IT_CHANGES
+  END
+
+  PRINT ~xxxx %iiareaname% -> %iiareascript%~
+
+END  // define_action_macro

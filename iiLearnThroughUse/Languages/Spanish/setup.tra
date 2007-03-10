@@ -1,0 +1,200 @@
+@10 = ~Apreder con el Uso~
+
+@100 = ~Ver leeme~
+@101 = ~Mostrar leeme luego de la instalación~
+@102 = ~No mostrar leeme luego de la instalación~
+
+@150 = ~Poner el número de golpes exitosos para 1 estrella~
+@151 = ~Poner el número de golpes exitosos para 2 estrellas~
+@152 = ~Poner el número de golpes exitosos para 3 estrellas~
+@153 = ~Poner el número de golpes exitosos para 4 estrellas~
+@154 = ~Poner el número de golpes exitosos para 5 estrellas~
+
+// 89
+@700 = ~Talento marcial ganado: Espada Bastarda~
+@701 = ~Talento marcial ganado: Espada Bastarda~
+@702 = ~Talento marcial ganado: Espada Bastarda~
+@703 = ~Talento marcial ganado: Espada Bastarda~
+@704 = ~Talento marcial ganado: Espada Bastarda~
+
+// 90
+@705 = ~Talento marcial ganado: Espada larga~
+@706 = ~Talento marcial ganado: Espada larga~
+@707 = ~Talento marcial ganado: Espada larga~
+@708 = ~Talento marcial ganado: Espada larga~
+@709 = ~Talento marcial ganado: Espada larga~
+
+// 91
+@710 = ~Talento marcial ganado: Espada corta~
+@711 = ~Talento marcial ganado: Espada corta~
+@712 = ~Talento marcial ganado: Espada corta~
+@713 = ~Talento marcial ganado: Espada corta~
+@714 = ~Talento marcial ganado: Espada corta~
+
+// 92
+@715 = ~Talento marcial ganado: Hacha~
+@716 = ~Talento marcial ganado: Hacha~
+@717 = ~Talento marcial ganado: Hacha~
+@718 = ~Talento marcial ganado: Hacha~
+@719 = ~Talento marcial ganado: Hacha~
+
+// 93
+@720 = ~Talento marcial ganado: Mandoble~
+@721 = ~Talento marcial ganado: Mandoble~
+@722 = ~Talento marcial ganado: Mandoble~
+@723 = ~Talento marcial ganado: Mandoble~
+@724 = ~Talento marcial ganado: Mandoble~
+
+// 94
+@725 = ~Talento marcial ganado: Katana~
+@726 = ~Talento marcial ganado: Katana~
+@727 = ~Talento marcial ganado: Katana~
+@728 = ~Talento marcial ganado: Katana~
+@729 = ~Talento marcial ganado: Katana~
+
+// 95
+@730 = ~Talento marcial ganado: Cimitarra~
+@731 = ~Talento marcial ganado: Cimitarra~
+@732 = ~Talento marcial ganado: Cimitarra~
+@733 = ~Talento marcial ganado: Cimitarra~
+@734 = ~Talento marcial ganado: Cimitarra~
+
+// 96
+@735 = ~Talento marcial ganado: Daga~
+@736 = ~Talento marcial ganado: Daga~
+@737 = ~Talento marcial ganado: Daga~
+@738 = ~Talento marcial ganado: Daga~
+@739 = ~Talento marcial ganado: Daga~
+
+// 97
+@740 = ~Talento marcial ganado: Martillo de guerra~
+@741 = ~Talento marcial ganado: Martillo de guerra~
+@742 = ~Talento marcial ganado: Martillo de guerra~
+@743 = ~Talento marcial ganado: Martillo de guerra~
+@744 = ~Talento marcial ganado: Martillo de guerra~
+
+// 98
+@745 = ~Talento marcial ganado: Lanza~
+@746 = ~Talento marcial ganado: Lanza~
+@747 = ~Talento marcial ganado: Lanza~
+@748 = ~Talento marcial ganado: Lanza~
+@749 = ~Talento marcial ganado: Lanza~
+
+// 99
+@750 = ~Talento marcial ganado: Alabarda~
+@751 = ~Talento marcial ganado: Alabarda~
+@752 = ~Talento marcial ganado: Alabarda~
+@753 = ~Talento marcial ganado: Alabarda~
+@754 = ~Talento marcial ganado: Alabarda~
+
+// 100
+@755 = ~Talento marcial ganado: Mayal~
+@756 = ~Talento marcial ganado: Mayal~
+@757 = ~Talento marcial ganado: Mayal~
+@758 = ~Talento marcial ganado: Mayal~
+@759 = ~Talento marcial ganado: Mayal~
+
+// 101
+@760 = ~Talento marcial ganado: Maza~
+@761 = ~Talento marcial ganado: Maza~
+@762 = ~Talento marcial ganado: Maza~
+@763 = ~Talento marcial ganado: Maza~
+@764 = ~Talento marcial ganado: Maza~
+
+// 102
+@765 = ~Talento marcial ganado: Bastón~
+@766 = ~Talento marcial ganado: Bastón~
+@767 = ~Talento marcial ganado: Bastón~
+@768 = ~Talento marcial ganado: Bastón~
+@769 = ~Talento marcial ganado: Bastón~
+
+// 103
+@770 = ~Talento marcial ganado: Ballesta~
+@771 = ~Talento marcial ganado: Ballesta~
+@772 = ~Talento marcial ganado: Ballesta~
+@773 = ~Talento marcial ganado: Ballesta~
+@774 = ~Talento marcial ganado: Ballesta~
+
+// 104
+@775 = ~Talento marcial ganado: Arco largo~
+@776 = ~Talento marcial ganado: Arco largo~
+@777 = ~Talento marcial ganado: Arco largo~
+@778 = ~Talento marcial ganado: Arco largo~
+@779 = ~Talento marcial ganado: Arco largo~
+
+// 105
+@780 = ~Talento marcial ganado: ~
+@781 = ~Talento marcial ganado: ~
+@782 = ~Talento marcial ganado: ~
+@783 = ~Talento marcial ganado: ~
+@784 = ~Talento marcial ganado: ~
+
+// 106
+@785 = ~Talento marcial ganado: Dardos~
+@786 = ~Talento marcial ganado: Dardos~
+@787 = ~Talento marcial ganado: Dardos~
+@788 = ~Talento marcial ganado: Dardos~
+@789 = ~Talento marcial ganado: Dardos~
+
+// 107
+@790 = ~Talento marcial ganado: Honda~
+@791 = ~Talento marcial ganado: Honda~
+@792 = ~Talento marcial ganado: Honda~
+@793 = ~Talento marcial ganado: Honda~
+@794 = ~Talento marcial ganado: Honda~
+
+// 108
+@795 = ~Talento marcial ganado: Cachiporras~
+@796 = ~Talento marcial ganado: Cachiporras~
+@797 = ~Talento marcial ganado: Cachiporras~
+@798 = ~Talento marcial ganado: Cachiporras~
+@799 = ~Talento marcial ganado: Cachiporras~
+
+// 109
+@800 = ~Talento marcial ganado: Pistolón~
+@801 = ~Talento marcial ganado: Pistolón~
+@802 = ~Talento marcial ganado: Pistolón~
+@803 = ~Talento marcial ganado: Pistolón~
+@804 = ~Talento marcial ganado: Pistolón~
+
+// 110
+@805 = ~Talento marcial ganado: Artes Marciales~
+@806 = ~Talento marcial ganado: Artes Marciales~
+@807 = ~Talento marcial ganado: Artes Marciales~
+@808 = ~Talento marcial ganado: Artes Marciales~
+@809 = ~Talento marcial ganado: Artes Marciales~
+
+// 111
+@810 = ~Talento marcial ganado: Habilidad de Dos-Puños~
+@811 = ~Talento marcial ganado: Habilidad de Dos-Puños~
+@812 = ~Talento marcial ganado: Habilidad de Dos-Puños~
+@813 = ~Talento marcial ganado: Habilidad de Dos-Puños~
+@814 = ~Talento marcial ganado: Habilidad de Dos-Puños~
+
+// 112
+@815 = ~Talento marcial ganado: Habilidad de Arma y Escudo~
+@816 = ~Talento marcial ganado: Habilidad de Arma y Escudo~
+@817 = ~Talento marcial ganado: Habilidad de Arma y Escudo~
+@818 = ~Talento marcial ganado: Habilidad de Arma y Escudo~
+@819 = ~Talento marcial ganado: Habilidad de Arma y Escudo~
+
+// 113
+@820 = ~Talento marcial ganado: Habilidad de un Arma~
+@821 = ~Talento marcial ganado: Habilidad de un Arma~
+@822 = ~Talento marcial ganado: Habilidad de un Arma~
+@823 = ~Talento marcial ganado: Habilidad de un Arma~
+@824 = ~Talento marcial ganado: Habilidad de un Arma~
+
+// 114
+@825 = ~Talento marcial ganado: Habilidad de dos Armas~
+@826 = ~Talento marcial ganado: Habilidad de dos Armas~
+@827 = ~Talento marcial ganado: Habilidad de dos Armas~
+@828 = ~Talento marcial ganado: Habilidad de dos Armas~
+@829 = ~Talento marcial ganado: Habilidad de dos Armas~
+
+// 115
+@830 = ~Talento marcial ganado: Palo~
+@831 = ~Talento marcial ganado: Palo~
+@832 = ~Talento marcial ganado: Palo~
+@833 = ~Talento marcial ganado: Palo~
+@834 = ~Talento marcial ganado: Palo~

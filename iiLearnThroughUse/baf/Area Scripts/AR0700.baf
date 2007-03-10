@@ -1,0 +1,7 @@
+IF
+  Global("iiTrainerSpawned", "AR0700", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("iiTrainerSpawned", "AR0700", 1)
+    CreateCreature("iitrain", [1735.1013], 1)
+END
