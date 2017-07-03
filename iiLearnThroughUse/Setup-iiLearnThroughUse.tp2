@@ -1,0 +1,326 @@
+// ----------------------------------------------------------------------------
+// Name:    Learn Through Use Mod
+// Author:  igi
+// Date:    07/10/2006
+// Version: 1
+// ----------------------------------------------------------------------------
+BACKUP ~iiLearnThroughUse/backup~
+AUTHOR ~igi~
+
+LANGUAGE ~English~ ~English~ ~iiLearnThroughUse/Languages/English/setup.tra~
+
+// ------------------------------------------------------------------------------------------------------------------------
+// Readme stuff
+// Some people like to view the readme
+BEGIN @101
+NO_LOG_RECORD
+DESIGNATED 1000
+SUBCOMPONENT @100
+  AT_INTERACTIVE_EXIT ~VIEW iiLearnThroughUse/Readme-iiLearnThroughUse.txt~
+
+
+// And some people don't like to view the readme
+BEGIN @102
+DESIGNATED 2000
+NO_LOG_RECORD
+SUBCOMPONENT @100
+// Do nothing
+
+
+//!----------------------------------------------------------------------------
+// Learn Through Use
+//!----------------------------------------------------------------------------
+BEGIN @10
+
+  // Get the user input first
+  OUTER_SET done = 0
+  OUTER_WHILE (done = 0)
+  BEGIN
+    PRINT @150
+    ACTION_READLN _STRIKES_FOR_ONE_
+    ACTION_IF (IS_AN_INT %_STRIKES_FOR_ONE_%) THEN
+    BEGIN
+      ACTION_IF (%_STRIKES_FOR_ONE_% > 0) THEN
+      BEGIN
+        OUTER_SET done = 1
+      END
+    END
+  END
+
+  OUTER_SET done = 0
+  OUTER_WHILE (done = 0)
+  BEGIN
+    PRINT @151
+    ACTION_READLN _STRIKES_FOR_TWO_
+    ACTION_IF (IS_AN_INT %_STRIKES_FOR_TWO_%) THEN
+    BEGIN
+      ACTION_IF (%_STRIKES_FOR_TWO_% > 0) THEN
+      BEGIN
+        OUTER_SET done = 1
+      END
+    END
+  END
+
+
+  OUTER_SET done = 0
+  OUTER_WHILE (done = 0)
+  BEGIN
+    PRINT @152
+    ACTION_READLN _STRIKES_FOR_THREE_
+    ACTION_IF (IS_AN_INT %_STRIKES_FOR_THREE_%) THEN
+    BEGIN
+      ACTION_IF (%_STRIKES_FOR_THREE_% > 0) THEN
+      BEGIN
+        OUTER_SET done = 1
+      END
+    END
+  END
+
+
+  OUTER_SET done = 0
+  OUTER_WHILE (done = 0)
+  BEGIN
+    PRINT @153
+    ACTION_READLN _STRIKES_FOR_FOUR_
+    ACTION_IF (IS_AN_INT %_STRIKES_FOR_FOUR_%) THEN
+    BEGIN
+      ACTION_IF (%_STRIKES_FOR_FOUR_% > 0) THEN
+      BEGIN
+        OUTER_SET done = 1
+      END
+    END
+  END
+
+
+  OUTER_SET done = 0
+  OUTER_WHILE (done = 0)
+  BEGIN
+    PRINT @154
+    ACTION_READLN _STRIKES_FOR_FIVE_
+    ACTION_IF (IS_AN_INT %_STRIKES_FOR_FIVE_%) THEN
+    BEGIN
+      ACTION_IF (%_STRIKES_FOR_FIVE_% > 0) THEN
+      BEGIN
+        OUTER_SET done = 1
+      END
+    END
+  END
+
+
+  // The script uses GlobalGT, so we need to decrement the entered value
+  COPY ~iiLearnThroughUse/Readme-iiLearnThroughUse.txt~ ~override~
+    SET %_STRIKES_FOR_ONE_%   = %_STRIKES_FOR_ONE_%   -1
+    SET %_STRIKES_FOR_TWO_%   = %_STRIKES_FOR_TWO_%   -1
+    SET %_STRIKES_FOR_THREE_% = %_STRIKES_FOR_THREE_% -1
+    SET %_STRIKES_FOR_FOUR_%  = %_STRIKES_FOR_FOUR_%  -1
+    SET %_STRIKES_FOR_FIVE_%  = %_STRIKES_FOR_FIVE_%  -1
+  BUT_ONLY_IF_IT_CHANGES
+
+  // Append the script, substituting variables
+  EXTEND_TOP ~dplayer2.bcs~ ~iiLearnThroughUse/baf/dplayer.baf~
+    EVALUATE_BUFFER
+  EXTEND_TOP ~dplayer3.bcs~ ~iiLearnThroughUse/baf/dplayer.baf~
+    EVALUATE_BUFFER
+
+  // A spell to set proficiencies
+  COPY ~iiLearnThroughUse/Readme-iiLearnThroughUse.txt~ ~override~
+    FOR (profindex = 89; profindex <= 115; profindex += 1) BEGIN
+      FOR (starindex = 1; starindex <= 5; starindex += 1) BEGIN
+        INNER_ACTION BEGIN
+          COPY ~iiLearnThroughUse/spl/iibase.spl~ ~override/ii%profindex%_%starindex%.spl~
+            WRITE_LONG 0x9E (%starindex%)
+            WRITE_LONG 0xA2 (%profindex%)
+        END
+      END
+  
+    END
+    BUT_ONLY_IF_IT_CHANGES
+
+// TODO: Possibility of proficiencies dropping if unused for x amount of time
+
+  // Copy across profs.2da files, so we don't gain proficiencies normally
+  // No need for a patch, as we just want to obliterate whatever exists
+  COPY ~iiLearnThroughUse/2da/profs.2da~ ~override~
+
+  // Fix up the items
+  COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
+    PATCH_IF (SOURCE_SIZE > 0x71) THEN BEGIN // protects against invalid files
+      READ_BYTE  0x31 "weapon_proficiency"
+
+      /*
+      Bastard Sword                89
+      Long Sword                   90
+      Short Sword                  91
+      Axe                          92
+      Two-Handed Sword             93
+      Katana                       94
+      Scimitar/Wakizashi/Ninja-To  95
+      Dagger                       96
+      War Hammer                   97
+      Spear                        98
+      Halberd                      99
+      Flail/Morningstar            100
+      Mace                         101
+      Quarter Staff                102
+      Crossbow                     103
+      Long Bow                     104
+      Short Bow                    105
+      Darts                        106
+      Sling                        107
+      Blackjack                    108
+      Gun                          109
+      Martial Arts                 110
+      Two-Handed Weapon Skill      111
+      Sword and Shield Skill       112
+      Single Weapon Skill          113
+      Two Weapon Skill             114
+      Club                         115
+      */
+      
+      PATCH_IF ((%weapon_proficiency% >= 89) && (%weapon_proficiency% <= 115)) BEGIN
+        READ_LONG   0x64 "abil_off"
+        READ_SHORT  0x68 "abil_num"
+        READ_LONG   0x6a "fx_off"
+        READ_SHORT  0x70 "fx_num"
+
+        SET "delta" = 0
+        FOR (index = 0; index < abil_num; index = index + 1) BEGIN // for each ability header
+          READ_BYTE   ("%abil_off%" +        ("%index%" * 0x38)) "type"
+          READ_SHORT  ("%abil_off%" + 0x20 + ("%index%" * 0x38)) "abil_fx_idx"
+          SET "abil_fx_idx" = ("%abil_fx_idx%" + "%delta%")
+          WRITE_SHORT  ("%abil_off%" + 0x20 + ("%index%" * 0x38)) "%abil_fx_idx%"
+
+          PATCH_IF (("%type%" = 1) || ("%type%" = 2)) BEGIN // melee or projectile ability check
+            READ_SHORT  ("%abil_off%" + 0x1e + ("%index%" * 0x38)) "abil_fx_num"
+            WRITE_SHORT ("%abil_off%" + 0x1e + ("%index%" * 0x38)) ("%abil_fx_num%" +  1)
+            INSERT_BYTES  ("%fx_off%" +        ("%abil_fx_idx%" * 0x30)) 0x30 // new effect
+
+              WRITE_SHORT ("%fx_off%" +        ("%abil_fx_idx%" * 0x30)) 309            // Set/Modify Local Variable
+              WRITE_BYTE  ("%fx_off%" + 0x02 + ("%abil_fx_idx%" * 0x30)) 1              // Target: self
+              WRITE_LONG  ("%fx_off%" + 0x04 + ("%abil_fx_idx%" * 0x30)) 1              // Amount
+              WRITE_LONG  ("%fx_off%" + 0x08 + ("%abil_fx_idx%" * 0x30)) 1              // Type
+              WRITE_BYTE  ("%fx_off%" + 0x0c + ("%abil_fx_idx%" * 0x30)) 1              // Type
+              WRITE_BYTE  ("%fx_off%" + 0x12 + ("%abil_fx_idx%" * 0x30)) 100            // Probability
+
+              // Set variable based on proficiency type
+              // We'll name the variable names after the prof number, to keep things simple
+              // Not the most efficient code, but I know it works, and I'm in a rush
+              PATCH_IF ("%weapon_proficiency%" = 89) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii89" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 90) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii90" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 91) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii91" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 92) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii92" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 93) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii93" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 94) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii94" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 95) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii95" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 96) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii96" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 97) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii97" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 98) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii98" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 99) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii99" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 100) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii100" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 101) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii101" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 102) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii102" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 103) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii103" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 104) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii104" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 105) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii105" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 106) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii106" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 107) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii107" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 108) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii108" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 109) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii109" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 110) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii110" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 111) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii111" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 112) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii112" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 113) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii113" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 114) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii114" #8    // Resource
+              END
+              ELSE
+              PATCH_IF ("%weapon_proficiency%" = 115) BEGIN
+                WRITE_ASCII ("%fx_off%" + 0x14 + ("%abil_fx_idx%" * 0x30)) "ii115" #8    // Resource
+              END
+
+            SET "delta" = ("%delta%" + 1)
+          END
+        END
+
+      END
+    END
+    IF ~ITM~
+  BUT_ONLY_IF_IT_CHANGES
+
+// ----------------------------------------------------------------------------
+// EOF

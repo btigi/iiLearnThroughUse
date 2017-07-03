@@ -1,0 +1,23 @@
+2DA V1.0
+0
+                        FIRST_LEVEL     RATE
+MAGE                    0               255
+FIGHTER                 0               255
+CLERIC                  0               255
+THIEF                   0               255
+BARD                    0               255
+PALADIN                 0               255
+DRUID                   0               255
+RANGER                  0               255
+FIGHTER_MAGE            0               255
+FIGHTER_CLERIC          0               255
+FIGHTER_THIEF           0               255
+FIGHTER_MAGE_THIEF      0               255
+MAGE_THIEF              0               255
+CLERIC_MAGE             0               255
+CLERIC_THIEF            0               255
+FIGHTER_DRUID           0               255
+FIGHTER_MAGE_CLERIC     0               255
+CLERIC_RANGER           0               255
+SORCERER                0               255
+MONK                    0               255

@@ -1,0 +1,200 @@
+@10 = ~Learn Through Use~
+
+@100 = ~View Readme~
+@101 = ~Show readme after installation~
+@102 = ~Do not show readme after installation~
+
+@150 = ~Enter number of successful strikes for 1 star~
+@151 = ~Enter number of successful strikes for 2 stars~
+@152 = ~Enter number of successful strikes for 3 stars~
+@153 = ~Enter number of successful strikes for 4 stars~
+@154 = ~Enter number of successful strikes for 5 stars~
+
+// 89
+@700 = ~Weapon proficiency gained: Bastard Sword~
+@701 = ~Weapon proficiency gained: Bastard Sword~
+@702 = ~Weapon proficiency gained: Bastard Sword~
+@703 = ~Weapon proficiency gained: Bastard Sword~
+@704 = ~Weapon proficiency gained: Bastard Sword~
+
+// 90
+@705 = ~Weapon proficiency gained: Long Sword~
+@706 = ~Weapon proficiency gained: Long Sword~
+@707 = ~Weapon proficiency gained: Long Sword~
+@708 = ~Weapon proficiency gained: Long Sword~
+@709 = ~Weapon proficiency gained: Long Sword~
+
+// 91
+@710 = ~Weapon proficiency gained: Short Sword~
+@711 = ~Weapon proficiency gained: Short Sword~
+@712 = ~Weapon proficiency gained: Short Sword~
+@713 = ~Weapon proficiency gained: Short Sword~
+@714 = ~Weapon proficiency gained: Short Sword~
+
+// 92
+@715 = ~Weapon proficiency gained: Axe Sword~
+@716 = ~Weapon proficiency gained: Axe Sword~
+@717 = ~Weapon proficiency gained: Axe Sword~
+@718 = ~Weapon proficiency gained: Axe Sword~
+@719 = ~Weapon proficiency gained: Axe Sword~
+
+// 93
+@720 = ~Weapon proficiency gained: Two-Handed Sword~
+@721 = ~Weapon proficiency gained: Two-Handed Sword~
+@722 = ~Weapon proficiency gained: Two-Handed Sword~
+@723 = ~Weapon proficiency gained: Two-Handed Sword~
+@724 = ~Weapon proficiency gained: Two-Handed Sword~
+
+// 94
+@725 = ~Weapon proficiency gained: Katana~
+@726 = ~Weapon proficiency gained: Katana~
+@727 = ~Weapon proficiency gained: Katana~
+@728 = ~Weapon proficiency gained: Katana~
+@729 = ~Weapon proficiency gained: Katana~
+
+// 95
+@730 = ~Weapon proficiency gained: Scimitar~
+@731 = ~Weapon proficiency gained: Scimitar~
+@732 = ~Weapon proficiency gained: Scimitar~
+@733 = ~Weapon proficiency gained: Scimitar~
+@734 = ~Weapon proficiency gained: Scimitar~
+
+// 96
+@735 = ~Weapon proficiency gained: Dagger~
+@736 = ~Weapon proficiency gained: Dagger~
+@737 = ~Weapon proficiency gained: Dagger~
+@738 = ~Weapon proficiency gained: Dagger~
+@739 = ~Weapon proficiency gained: Dagger~
+
+// 97
+@740 = ~Weapon proficiency gained: Warhammer~
+@741 = ~Weapon proficiency gained: Warhammer~
+@742 = ~Weapon proficiency gained: Warhammer~
+@743 = ~Weapon proficiency gained: Warhammer~
+@744 = ~Weapon proficiency gained: Warhammer~
+
+// 98
+@745 = ~Weapon proficiency gained: Spear~
+@746 = ~Weapon proficiency gained: Spear~
+@747 = ~Weapon proficiency gained: Spear~
+@748 = ~Weapon proficiency gained: Spear~
+@749 = ~Weapon proficiency gained: Spear~
+
+// 99
+@750 = ~Weapon proficiency gained: Halberd~
+@751 = ~Weapon proficiency gained: Halberd~
+@752 = ~Weapon proficiency gained: Halberd~
+@753 = ~Weapon proficiency gained: Halberd~
+@754 = ~Weapon proficiency gained: Halberd~
+
+// 100
+@755 = ~Weapon proficiency gained: Flail~
+@756 = ~Weapon proficiency gained: Flail~
+@757 = ~Weapon proficiency gained: Flail~
+@758 = ~Weapon proficiency gained: Flail~
+@759 = ~Weapon proficiency gained: Flail~
+
+// 101
+@760 = ~Weapon proficiency gained: Mace~
+@761 = ~Weapon proficiency gained: Mace~
+@762 = ~Weapon proficiency gained: Mace~
+@763 = ~Weapon proficiency gained: Mace~
+@764 = ~Weapon proficiency gained: Mace~
+
+// 102
+@765 = ~Weapon proficiency gained: Quarterstaff~
+@766 = ~Weapon proficiency gained: Quarterstaff~
+@767 = ~Weapon proficiency gained: Quarterstaff~
+@768 = ~Weapon proficiency gained: Quarterstaff~
+@769 = ~Weapon proficiency gained: Quarterstaff~
+
+// 103
+@770 = ~Weapon proficiency gained: Crossbow~
+@771 = ~Weapon proficiency gained: Crossbow~
+@772 = ~Weapon proficiency gained: Crossbow~
+@773 = ~Weapon proficiency gained: Crossbow~
+@774 = ~Weapon proficiency gained: Crossbow~
+
+// 104
+@775 = ~Weapon proficiency gained: Long Bow~
+@776 = ~Weapon proficiency gained: Long Bow~
+@777 = ~Weapon proficiency gained: Long Bow~
+@778 = ~Weapon proficiency gained: Long Bow~
+@779 = ~Weapon proficiency gained: Long Bow~
+
+// 105
+@780 = ~Weapon proficiency gained: ~
+@781 = ~Weapon proficiency gained: ~
+@782 = ~Weapon proficiency gained: ~
+@783 = ~Weapon proficiency gained: ~
+@784 = ~Weapon proficiency gained: ~
+
+// 106
+@785 = ~Weapon proficiency gained: Darts~
+@786 = ~Weapon proficiency gained: Darts~
+@787 = ~Weapon proficiency gained: Darts~
+@788 = ~Weapon proficiency gained: Darts~
+@789 = ~Weapon proficiency gained: Darts~
+
+// 107
+@790 = ~Weapon proficiency gained: Sling~
+@791 = ~Weapon proficiency gained: Sling~
+@792 = ~Weapon proficiency gained: Sling~
+@793 = ~Weapon proficiency gained: Sling~
+@794 = ~Weapon proficiency gained: Sling~
+
+// 108
+@795 = ~Weapon proficiency gained: Blackjack~
+@796 = ~Weapon proficiency gained: Blackjack~
+@797 = ~Weapon proficiency gained: Blackjack~
+@798 = ~Weapon proficiency gained: Blackjack~
+@799 = ~Weapon proficiency gained: Blackjack~
+
+// 109
+@800 = ~Weapon proficiency gained: Gun~
+@801 = ~Weapon proficiency gained: Gun~
+@802 = ~Weapon proficiency gained: Gun~
+@803 = ~Weapon proficiency gained: Gun~
+@804 = ~Weapon proficiency gained: Gun~
+
+// 110
+@805 = ~Weapon proficiency gained: Martial Arts~
+@806 = ~Weapon proficiency gained: Martial Arts~
+@807 = ~Weapon proficiency gained: Martial Arts~
+@808 = ~Weapon proficiency gained: Martial Arts~
+@809 = ~Weapon proficiency gained: Martial Arts~
+
+// 111
+@810 = ~Weapon proficiency gained: Two-Handed Weapon Skill~
+@811 = ~Weapon proficiency gained: Two-Handed Weapon Skill~
+@812 = ~Weapon proficiency gained: Two-Handed Weapon Skill~
+@813 = ~Weapon proficiency gained: Two-Handed Weapon Skill~
+@814 = ~Weapon proficiency gained: Two-Handed Weapon Skill~
+
+// 112
+@815 = ~Weapon proficiency gained: Sword and Shield Skill~
+@816 = ~Weapon proficiency gained: Sword and Shield Skill~
+@817 = ~Weapon proficiency gained: Sword and Shield Skill~
+@818 = ~Weapon proficiency gained: Sword and Shield Skill~
+@819 = ~Weapon proficiency gained: Sword and Shield Skill~
+
+// 113
+@820 = ~Weapon proficiency gained: Single Weapon Skill~
+@821 = ~Weapon proficiency gained: Single Weapon Skill~
+@822 = ~Weapon proficiency gained: Single Weapon Skill~
+@823 = ~Weapon proficiency gained: Single Weapon Skill~
+@824 = ~Weapon proficiency gained: Single Weapon Skill~
+
+// 114
+@825 = ~Weapon proficiency gained: Two Weapon Skill~
+@826 = ~Weapon proficiency gained: Two Weapon Skill~
+@827 = ~Weapon proficiency gained: Two Weapon Skill~
+@828 = ~Weapon proficiency gained: Two Weapon Skill~
+@829 = ~Weapon proficiency gained: Two Weapon Skill~
+
+// 115
+@830 = ~Weapon proficiency gained: Club~
+@831 = ~Weapon proficiency gained: Club~
+@832 = ~Weapon proficiency gained: Club~
+@833 = ~Weapon proficiency gained: Club~
+@834 = ~Weapon proficiency gained: Club~
