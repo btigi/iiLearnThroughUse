@@ -5,11 +5,11 @@
 // ----------------------------------------------------------------------------
 // Name:    Learn Through Use Mod
 // Author:  igi
-// Date:    07/10/2006
-// Version: 1
+// Date:    05/09/2021
 // ----------------------------------------------------------------------------
 BACKUP ~iiLearnThroughUse/backup~
 AUTHOR ~igi~
+VERSION ~2.1~
 
 LANGUAGE ~English~ ~English~ ~iiLearnThroughUse/Languages/English/setup.tra~
 //LANGUAGE ~Polish~ ~Polish~ ~iiLearnThroughUse/Languages/Polish/setup.tra~

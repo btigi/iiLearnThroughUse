@@ -69,6 +69,9 @@ Future Versions
   WIS/INT affects learning rate?
   Limit the progression to match the 2da?
 
+V2.1 [05/09/2021]
+  - Maintenance release RE: mod packaging
+  
 V2 [10/03/2007] BETA
   - Expanded known issues
   - Fixed string errors
