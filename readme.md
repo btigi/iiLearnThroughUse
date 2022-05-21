@@ -1,3 +1,7 @@
+![Latest Release](https://img.shields.io/github/v/release/btigi/iiLearnThroughUse?color=blue)
+
+---
+
 # iiLearnThroughUse
 
 Learn Through Use attempts to add a small element of realism to the game. Rather than offering weapon proficiency points for weapon types the player may never have even seen, let alone used, Learn Through Use weapon proficiencies for weapon types the player is actually using.
